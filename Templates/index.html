@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    margin:0;
+}
+
+.feed{
+    max-width:600px;
+    margin:auto;
+    height:100vh;
+    overflow-y:scroll;
+    scroll-snap-type:y mandatory;
+}
+
+.post{
+    background:white;
+    margin:0;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    scroll-snap-align:start;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.carousel{
+    display:flex;
+    overflow-x:hidden;
+    scroll-snap-type:x mandatory;
+    flex:1;
+    position:relative;
+    align-items:center;
+}
+
+.page{
+    min-width:100%;
+    scroll-snap-align:start;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+}
+
+.page img{
+    max-width:100%;
+    max-height:70vh;
+    object-fit:contain;
+}
+
+.caption{
+    padding:10px 15px;
+    text-align:center;
+    font-size:15px;
+}
+
+.counter{
+    position:absolute;
+    top:10px;
+    right:10px;
+    background:rgba(0,0,0,0.6);
+    color:white;
+    padding:4px 8px;
+    border-radius:12px;
+    font-size:12px;
+}
+
+.image-container{
+    position:relative;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.figure{
+    font-weight:bold;
+    font-size:18px;
+    text-align:center;
+    padding:10px 15px;
+    margin-bottom:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="feed">
+
+{% for post in posts %}
+<div class="post">
+
+<div class="carousel">
+
+{% for page in post.pages %}
+<div class="page">
+
+<div class="figure">{{page.figure}}</div>
+
+<div class="image-container">
+<img src="{{ url_for('static', filename='images/' + page.image) }}">
+
+<div class="counter">
+{{loop.index}} / {{post.pages|length}}
+</div>
+</div>
+
+<div class="caption">
+{{page.caption}}
+</div>
+
+</div>
+{% endfor %}
+
+</div>
+
+</div>
+{% endfor %}
+
+</div>
+
+<script>
+
+document.querySelectorAll('.carousel').forEach(carousel => {
+
+let startX = 0
+let currentIndex = 0
+const pages = carousel.querySelectorAll('.page')
+const totalPages = pages.length
+
+function updateCarousel(){
+carousel.scrollTo({
+left: pages[currentIndex].offsetLeft,
+behavior:'smooth'
+})
+}
+
+carousel.addEventListener('touchstart', e=>{
+startX = e.touches[0].clientX
+})
+
+carousel.addEventListener('touchend', e=>{
+
+let endX = e.changedTouches[0].clientX
+let diff = startX - endX
+
+if(diff>50 && currentIndex<totalPages-1) currentIndex++
+if(diff<-50 && currentIndex>0) currentIndex--
+
+updateCarousel()
+
+})
+
+})
+
+</script>
+
+</body>
+</html>
