@@ -1,0 +1,60 @@
+[
+  {
+    "post_id": "Vaquita_Discovery",
+    "article_id": "Vaquita",
+    "pages": [
+      {
+        "image": "vaquita/Vaquita1.png",
+        "figure": "Early Phototgraph of a Vaquita",
+        "caption": "The vaquita is one of the most mysterious marine mammals ever discovered. Known scientifically as Phocoena sinus, this small porpoise lives only in the northern Gulf of California in Mexico. Because it inhabits murky waters and rarely surfaces for long, scientists did not even confirm its existence until the late 20th century. Today it holds the unfortunate distinction of being the most endangered marine mammal in the world."
+      },
+      {
+        "image": "vaquita/Vaquita2.jpg",
+        "figure": "Modern Photograph of a Vaquita Highlighting Traits",
+        "caption": "Vaquitas are the smallest members of the porpoise family. Adults grow to only about 1.5 meters in length and weigh roughly 50 kilograms. Their bodies are compact and gray, with distinctive dark patches around the eyes and lips that give them a striking facial pattern. These markings, along with their rounded fins and blunt snouts, make them easy to recognize among marine mammals."
+      },
+      {
+        "image": "vaquita/Vaquita3.jpg",
+        "figure": "The Sea Shepherd: A Specialized Vessel Used to Study and Protect Vaquitas",
+        "caption": "Like other porpoises, vaquitas rely heavily on sound to navigate their environment. They produce rapid sequences of high-frequency echolocation clicks that help them locate prey and move through the cloudy waters of their habitat. Because these clicks occur almost continuously, researchers can detect vaquitas using underwater acoustic sensors even when the animals themselves are difficult to see."
+      }
+    ]
+  },
+  {
+    "post_id": "Vaquita_Habitat",
+    "article_id": "Vaquita",
+    "pages": [
+      {
+        "image": "vaquita/Vaquita4.png",
+        "figure": "Vaquita Habitat Range",
+        "caption": "Vaquitas live in an extremely limited range. They are found only in the northernmost part of the Gulf of California, a shallow body of water between the Baja California Peninsula and mainland Mexico. This region contains warm, nutrient-rich waters that support many fish and shrimp species, providing food for the small porpoise."
+      },
+      {
+        "image": "vaquita/Vaquita5.jpg",
+        "figure": "Vaquita Mural in San Felipe, Mexico",
+        "caption": "Over time, the area used by vaquitas has become even smaller. As the population declined, researchers found that most remaining individuals were concentrated within a tiny protected region known as the Zero Tolerance Area near the town of San Felipe. This area measures only about 12 by 24 kilometers, meaning the entire surviving population now occupies one of the smallest habitats of any marine mammal."
+      }
+    ]
+  },
+  {
+    "post_id": "Vaquita_Endangerment",
+    "article_id": "Vaquita",
+    "pages": [
+      {
+        "image": "vaquita/Vaquita6.jpg",
+        "figure": "Vaquita Cut by Gillnet and Trapped in Line",
+        "caption": "The greatest threat to vaquitas is accidental entanglement in fishing gear known as gillnets. These nets hang vertically in the water to catch fish, but marine mammals can become trapped in them and drown. For decades, this type of fishing has caused the vaquita population to decline rapidly."
+      },
+      {
+        "image": "vaquita/Vaquita7.jpg",
+        "figure": "Totoaba Illegal Fishing Using Gillnets in the Gulf of California",
+        "caption": "In recent years, illegal fishing for the endangered totoaba fish has made the situation even worse. Totoaba swim bladders are highly valuable on the black market, and fishers often use large gillnets to catch them. Unfortunately, these same nets are deadly for vaquitas that share the same waters. Even after gillnets were banned in the region, illegal fishing has continued to drive the species toward extinction."
+      },
+      {
+        "image": "vaquita/Vaquita8.jpg",
+        "figure": "Hope for the Future Vaquita Popupulation",
+        "caption": "By 2018, scientists estimated that fewer than 20 vaquitas remained, and recent surveys suggest that only around ten individuals may survive today. Despite these extremely small numbers, researchers have still observed calves, showing that reproduction continues. If the remaining habitat can be fully protected from gillnets, conservationists believe there is still a chance for the species to recover."
+      }
+    ]
+  }
+]
