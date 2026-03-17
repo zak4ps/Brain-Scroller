@@ -5,11 +5,11 @@ Design:
 **app.py**: 
 UI Made using Flask. Uses articles.json and the list of json files, which will continue to grow using processor.py
 
+**processor.py**: 
+Takes in a research paper PDF, extracts all images/figures from the research papers, chooses a few interesting images/figures and generates captions: content to be associated with the visual in a post, generally offering context and summarizing a piece of the overall paper message. Has to be updated with new path defined each time it gets run. NOTE: You'll have to generate your own Google AI Studio API Key and replace api_key.
+
 **articles.json**: 
 The various article topic categories. This will eventually be used to customize user experience, allowing them to filter content.
-
-**processor.py**: 
-Takes in a research paper PDF, extracts all images/figures from the research papers, chooses a few interesting images/figures and generates captions: content to be associated with the visual in a post, generally offering context and summarizing a piece of the overall paper message. Has to be updated with new path defined each time it gets run.
 
 **test-processor.py**:
 Prior to running processor.py, run test-processor.py to make sure there are images to extract from the pdf, otherwise processor.py won't work.
