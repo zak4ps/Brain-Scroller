@@ -6,7 +6,7 @@ from google.genai import types
 
 # Initialize with the modern stable version
 client = Client(
-    api_key="AIzaSyChxD3bDWvzysrtwuBZvdSy6gV3F3WXj2o".strip(),
+    api_key="MyGeminiAIKey".strip(),
     http_options={'api_version': 'v1'} 
 )
 
