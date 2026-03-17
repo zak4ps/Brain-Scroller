@@ -1,0 +1,30 @@
+[
+  {
+    "article_id": "NanoTyrannus",
+    "title": "Nanotyrannus Debate",
+    "source_pdf": "fossstud-02-00001-v2.pdf",
+    "type": "Educational",
+    "category": "Dinosaurs"
+  },
+  {
+    "article_id": "Vaquita",
+    "title": "Vaquita",
+    "source_pdf": "vaquita_articles.pdf",
+    "type": "Educational",
+    "category": "Marine Biology"
+  },
+    {
+        "article_id": "GravitationalWaves",
+        "title": "Gravitational Waves",
+        "source_pdf": "gravitational_waves.pdf",
+        "type": "Educational",
+        "category": "Physics"
+    },
+    {
+        "article_id": "GlacialDetachment",
+        "title": "Glacial Detachment",
+        "source_pdf": "glaciers.pdf",
+        "type": "Educational",
+        "category": "Geology"
+    }
+]
