@@ -3,18 +3,25 @@ import json
 import random
 import os
 
+
 app = Flask(__name__)
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 # Load article metadata
-with open("articles.json", encoding="utf-8-sig") as f:
+articles_path = os.path.join(BASE_DIR, "articles.json")
+with open(articles_path, encoding="utf-8-sig") as f:
     ARTICLES = {a["article_id"]: a for a in json.load(f)}
 
 # Load posts from separate files
 POSTS = []
-for filename in ["json/nanotyrannus.json", "json/vaquita.json", "json/gravitational_waves.json", "json/sea_otters.json", "json/football.json"]:
-    with open(filename, encoding="utf-8-sig") as f:
-        POSTS.extend(json.load(f))
-
+post_files = ["nanotyrannus.json", "vaquita.json", "gravitational_waves.json", "sea_otters.json", "football.json"]
+for filename in post_files:
+    full_path = os.path.join(BASE_DIR, "json", filename) 
+    if os.path.exists(full_path):
+        with open(full_path, encoding="utf-8-sig") as f:
+            POSTS.extend(json.load(f))
+    else:
+        print(f"Warning: File not found at {full_path}")
 
 def attach_article_data(posts):
     enriched = []
