@@ -1,59 +1,142 @@
 [
   {
-    "post_id": "Vaquita_Discovery",
-    "article_id": "Vaquita",
+    "post_id": "Phocoena_sinus_Discovery",
+    "article_id": "PhocoenaSinus",
     "pages": [
       {
-        "image": "vaquita/Vaquita1.png",
-        "figure": "Early Phototgraph of a Vaquita",
-        "caption": "The vaquita is one of the most mysterious marine mammals ever discovered. Known scientifically as Phocoena sinus, this small porpoise lives only in the northern Gulf of California in Mexico. Because it inhabits murky waters and rarely surfaces for long, scientists did not even confirm its existence until the late 20th century. Today it holds the unfortunate distinction of being the most endangered marine mammal in the world."
+        "page_type": "title_card",
+        "title": "Meet the Vaquita: Discovery & Unique Identity",
+        "teaser": "Uncover the story of the vaquita, *Phocoena sinus*, a rare porpoise first described in 1958. Learn what makes this elusive marine mammal distinct from its closest relatives.",
+        "key_terms": [
+          {
+            "term": "Phocoena sinus",
+            "definition": "The scientific name for the vaquita, a species of porpoise endemic to the Gulf of California."
+          },
+          {
+            "term": "Type locality",
+            "definition": "The specific geographic location where the first specimen of a new species was collected."
+          },
+          {
+            "term": "Diagnosis",
+            "definition": "A description of the distinguishing characteristics of a species, used to differentiate it from other closely related species."
+          }
+        ]
       },
       {
-        "image": "vaquita/Vaquita2.jpg",
-        "figure": "Modern Photograph of a Vaquita Highlighting Traits",
-        "caption": "Vaquitas are the smallest members of the porpoise family. Adults grow to only about 1.5 meters in length and weigh roughly 50 kilograms. Their bodies are compact and gray, with distinctive dark patches around the eyes and lips that give them a striking facial pattern. These markings, along with their rounded fins and blunt snouts, make them easy to recognize among marine mammals."
+        "page_type": "content",
+        "title": "The Vaquita's Formal Introduction",
+        "image": "images/vaquita/Vaquita2.jpg",
+        "caption": "The vaquita, or *Phocoena sinus*, was formally described by Norris and McFarland in 1958. Its 'type locality' \u2013 the place where the first specimen was found \u2013 is the northeast shore of Punto San Felipe, Baja California Norte, within Mexico's Gulf of California. This initial discovery marked the beginning of our scientific understanding of this unique species."
       },
       {
-        "image": "vaquita/Vaquita3.jpg",
-        "figure": "The Sea Shepherd: A Specialized Vessel Used to Study and Protect Vaquitas",
-        "caption": "Like other porpoises, vaquitas rely heavily on sound to navigate their environment. They produce rapid sequences of high-frequency echolocation clicks that help them locate prey and move through the cloudy waters of their habitat. Because these clicks occur almost continuously, researchers can detect vaquitas using underwater acoustic sensors even when the animals themselves are difficult to see."
+        "page_type": "content",
+        "title": "A Distinct Member of the Porpoise Family",
+        "image": "images/vaquita/VaquitaPH2.png",
+        "caption": "Classified within the Order Cetacea (whales, dolphins, and porpoises), Suborder Odontoceti (toothed whales), and Family Phocoenidae (true porpoises), *Phocoena sinus* is one of four species in its genus. Unlike some other marine mammals, no subspecies are recognized for the vaquita, emphasizing its singular identity within its limited range."
+      },
+      {
+        "page_type": "content",
+        "title": "Cranial Clues: What Sets the Vaquita Apart",
+        "image": "images/vaquita/VaquitaPH3.jpg",
+        "caption": "Scientists distinguish *P. sinus* from its close relative, *P. phocoena*, by several key cranial features. The vaquita possesses a smaller cranium with a broader, shorter rostrum, a greater downward deflection of the basicranial axis, and a larger foramen magnum. These subtle yet significant differences in skull morphology are crucial for accurate species identification."
+      },
+      {
+        "page_type": "content",
+        "title": "External Distinctions: Beyond the Skull",
+        "image": "images/vaquita/VaquitaPH4.jpg",
+        "caption": "Beyond skeletal differences, *P. sinus* (Vaquita) also exhibits distinct external characteristics. It is generally smaller in total length than *P. phocoena* (Harbor Porpoise), with proportionately larger flippers that have a more concave posterior border. Its dorsal fin is also proportionately higher with a more concave posterior edge. These features contribute to its unique appearance and help differentiate it in the wild."
       }
     ]
   },
   {
-    "post_id": "Vaquita_Habitat",
-    "article_id": "Vaquita",
+    "post_id": "Phocoena_sinus_AnatomyHabitat",
+    "article_id": "PhocoenaSinus",
     "pages": [
       {
-        "image": "vaquita/Vaquita4.png",
-        "figure": "Vaquita Habitat Range",
-        "caption": "Vaquitas live in an extremely limited range. They are found only in the northernmost part of the Gulf of California, a shallow body of water between the Baja California Peninsula and mainland Mexico. This region contains warm, nutrient-rich waters that support many fish and shrimp species, providing food for the small porpoise."
+        "page_type": "title_card",
+        "title": "Vaquita Anatomy & Exclusive Habitat",
+        "teaser": "Dive deeper into the physical characteristics of the vaquita, from its skull to its skeleton, and explore its incredibly restricted natural habitat within the Gulf of California.",
+        "key_terms": [
+          {
+            "term": "Condylobasal length",
+            "definition": "A standard measurement of skull length, from the anterior tip of the premaxillae to the posterior-most point of the occipital condyles."
+          },
+          {
+            "term": "Dentition",
+            "definition": "The arrangement or condition of the teeth in a particular species or individual."
+          },
+          {
+            "term": "Endemic",
+            "definition": "Native or restricted to a certain country or area."
+          }
+        ]
       },
       {
-        "image": "vaquita/Vaquita5.jpg",
-        "figure": "Vaquita Mural in San Felipe, Mexico",
-        "caption": "Over time, the area used by vaquitas has become even smaller. As the population declined, researchers found that most remaining individuals were concentrated within a tiny protected region known as the Zero Tolerance Area near the town of San Felipe. This area measures only about 12 by 24 kilometers, meaning the entire surviving population now occupies one of the smallest habitats of any marine mammal."
+        "page_type": "content",
+        "title": "Measuring the Vaquita: External Dimensions",
+        "image": "images/vaquita/Vaquita1.png",
+        "caption": "External measurements from two specimens reveal the vaquita's typical size. Total length ranges from 1,390 to 1,500 mm, with flippers measuring 270-280 mm from anterior insertion to tip. The dorsal fin height is 115-155 mm, and fluke width is consistently around 370 mm. These proportions suggest a closer resemblance to *P. spinipinnis* than to *P. phocoena*."
+      },
+      {
+        "page_type": "content",
+        "title": "Internal Structure: Vertebrae and Dentition",
+        "image": "images/vaquita/VaquitaPH5.jpg",
+        "caption": "Internally, the vaquita possesses a unique vertebral count: 7 cervical, 12-13 thoracic, 13-15 lumbar, and 29-30 caudal vertebrae, with 19-20 chevron bones. This count is notably lower than other *Phocoena* species. Its dentition consists of 18-22 upper teeth and 17-20 lower teeth on each side, all characterized by distinctive spade-shaped crowns, uniform throughout the genus."
+      },
+      {
+        "page_type": "content",
+        "title": "The Vaquita's Exclusive Home: Upper Gulf of California",
+        "image": "images/vaquita/Vaquita4.png",
+        "caption": "The vaquita's distribution is remarkably restricted, primarily to the upper Gulf of California, Mexico. While historical reports suggested a wider range, confirmed records, as shown in Figure 4, firmly place this species within this specific region. This limited habitat makes the vaquita particularly vulnerable to localized threats and environmental changes."
       }
     ]
   },
   {
-    "post_id": "Vaquita_Endangerment",
-    "article_id": "Vaquita",
+    "post_id": "Phocoena_sinus_EcologyConservation",
+    "article_id": "PhocoenaSinus",
     "pages": [
       {
-        "image": "vaquita/Vaquita6.jpg",
-        "figure": "Vaquita Cut by Gillnet and Trapped in Line",
-        "caption": "The greatest threat to vaquitas is accidental entanglement in fishing gear known as gillnets. These nets hang vertically in the water to catch fish, but marine mammals can become trapped in them and drown. For decades, this type of fishing has caused the vaquita population to decline rapidly."
+        "page_type": "title_card",
+        "title": "Vaquita Life: Ecology, Threats & Conservation Crisis",
+        "teaser": "Explore the vaquita's diet, reproductive patterns, and the devastating impact of human activities, particularly bycatch in fishing nets, that have pushed this species to the brink of extinction.",
+        "key_terms": [
+          {
+            "term": "Bycatch",
+            "definition": "The incidental capture of non-target species in fishing gear, a major threat to marine wildlife."
+          },
+          {
+            "term": "Totoaba",
+            "definition": "A large fish (*Cynoscion macdonaldi*) endemic to the Gulf of California, whose illegal fishing nets are a primary cause of vaquita bycatch."
+          },
+          {
+            "term": "Vulnerable/Endangered",
+            "definition": "Conservation statuses indicating a high risk of extinction in the wild, as classified by organizations like the IUCN."
+          }
+        ]
       },
       {
-        "image": "vaquita/Vaquita7.jpg",
-        "figure": "Totoaba Illegal Fishing Using Gillnets in the Gulf of California",
-        "caption": "In recent years, illegal fishing for the endangered totoaba fish has made the situation even worse. Totoaba swim bladders are highly valuable on the black market, and fishers often use large gillnets to catch them. Unfortunately, these same nets are deadly for vaquitas that share the same waters. Even after gillnets were banned in the region, illegal fishing has continued to drive the species toward extinction."
+        "page_type": "content",
+        "title": "What's on the Vaquita Menu?",
+        "image": "images/vaquita/Vaquita8.jpg",
+        "caption": "Our understanding of the vaquita's diet comes from stomach content analysis. One specimen was found to have otoliths (ear bones) from bronze striped grunts (*Orthopristis reddingi*) and gulf croakers (*Bairdiella icistius*), both abundant fish in the northern Gulf of California. Remains of squid were also present, indicating a varied diet of locally available prey."
       },
       {
-        "image": "vaquita/Vaquita8.jpg",
-        "figure": "Hope for the Future Vaquita Popupulation",
-        "caption": "By 2018, scientists estimated that fewer than 20 vaquitas remained, and recent surveys suggest that only around ten individuals may survive today. Despite these extremely small numbers, researchers have still observed calves, showing that reproduction continues. If the remaining habitat can be fully protected from gillnets, conservationists believe there is still a chance for the species to recover."
+        "page_type": "content",
+        "title": "Glimpses of Reproduction: Mother and Calf",
+        "image": "images/vaquita/Vaquita6.jpg",
+        "caption": "Little is known about vaquita reproduction, but a poignant photograph (Figure 5) captures a probable female/calf pair tragically caught in a gill net. The calf, estimated at 74 cm, shows visible fetal folds, suggesting it was very young. This image underscores the species' vulnerability and the challenges in studying its life history."
+      },
+      {
+        "page_type": "content",
+        "title": "The Silent Killer: Gill Net Bycatch",
+        "image": "images/vaquita/Vaquita7.jpg",
+        "caption": "The primary threat to vaquitas is incidental capture, or bycatch, in gill nets. Historically, these nets were used for fishing totoaba (*Cynoscion macdonaldi*), a large fish also endemic to the Gulf. Even after a ban on totoaba fishing in 1975, gill net use for other species and illegal totoaba fishing continued, leading to devastating vaquita mortality. Early 1970s estimates suggested annual bycatch in the tens to hundreds."
+      },
+      {
+        "page_type": "content",
+        "title": "A Species on the Brink: Conservation Status",
+        "image": "images/vaquita/Vaquita5.jpg",
+        "caption": "The vaquita's precarious situation has led to its listing as 'Vulnerable' by the International Union for Conservation of Nature (IUCN) in 1978, and later in Appendix I of the Convention on International Trade in Endangered Species (CITES) in 1979. These designations highlight the urgent need for conservation efforts to protect this critically endangered species from extinction, a direct consequence of human fishing practices."
       }
     ]
   }

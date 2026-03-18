@@ -1,0 +1,149 @@
+[
+  {
+    "post_id": "Nanotyrannus_Mystery_1",
+    "article_id": "Nanotyrannus_lancensis",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "The Nanotyrannus Mystery: Unraveling a Tyrannosaur Debate",
+        "teaser": "For decades, paleontologists have debated whether the small tyrannosaur *Nanotyrannus lancensis* is a distinct species or merely a juvenile *Tyrannosaurus rex*. A new study presents compelling evidence to settle this long-standing controversy.",
+        "key_terms": [
+          {
+            "term": "Nanotyrannus lancensis",
+            "definition": "A small-bodied tyrannosaur species whose taxonomic status is debated, often proposed as a juvenile *T. rex*."
+          },
+          {
+            "term": "Tyrannosaurus rex",
+            "definition": "The iconic giant tyrannosaur, considered one of the largest terrestrial predators of all time."
+          },
+          {
+            "term": "Taxonomic Status",
+            "definition": "The scientific classification and validity of a species or group of organisms within the biological hierarchy."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "title": "The Iconic Tyrannosaurs",
+        "image": "images/nanotyrannus/Various_Tyrannosaurs.jpeg",
+        "caption": "Tyrannosaurs are among the most intensively studied dinosaurs, evolving from smaller, primitive forms in the Late Jurassic to the massive *Tyrannosaurus rex* by the late Maastrichtian. Despite extensive research, fundamental questions about their diversity and relationships persist, especially concerning specimens from the latest Cretaceous of North America."
+      },
+      {
+        "page_type": "content",
+        "title": "The Initial Discovery of 'Gorgosaurus lancensis'",
+        "image": "images/nanotyrannus/Nanotyrannus_Holotype.png",
+        "caption": "The controversy began in 1942 with the discovery of a small tyrannosaur skull (CMNH 7541) in Montana. Described posthumously in 1946 by Charles Gilmore, it was named *Gorgosaurus lancensis*. Gilmore noted its distinctness, primarily due to the significant time gap separating it from other *Gorgosaurus* species, found much earlier in the Campanian."
+      },
+      {
+        "page_type": "content",
+        "title": "Renaming and the Juvenile Hypothesis",
+        "image": "images/nanotyrannus/NanoT2.png",
+        "caption": "In 1988, Bakker, Williams, and Currie argued that *Gorgosaurus lancensis* was distinct enough to warrant its own genus, renaming it *Nanotyrannus lancensis*. However, the idea that it might be a juvenile *T. rex*, first suggested by Rozhdestvensky in 1965, gained traction. This hypothesis proposed that the observed differences were simply growth-related, representing a young *T. rex*."
+      },
+      {
+        "page_type": "content",
+        "title": "The Ongoing Debate",
+        "image": "images/nanotyrannus/NanoT3.png",
+        "caption": "The debate over *Nanotyrannus*'s true identity has profound implications for understanding late Cretaceous ecosystems. If it's a distinct species, it suggests higher tyrannosaur diversity. If it's a juvenile *T. rex*, it informs our understanding of *T. rex* growth and development. This study aims to provide definitive answers using multiple lines of evidence, addressing this fundamental problem in paleontology."
+      }
+    ]
+  },
+  {
+    "post_id": "Nanotyrannus_Mystery_2",
+    "article_id": "Nanotyrannus_lancensis",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "Unmasking Nanotyrannus: Morphological & Growth Clues",
+        "teaser": "Is *Nanotyrannus* a unique species or just a young *T. rex*? This post delves into the anatomical differences and growth patterns that provide strong evidence for *Nanotyrannus* being a distinct, small-bodied tyrannosaur.",
+        "key_terms": [
+          {
+            "term": "Morphological Characters",
+            "definition": "Distinct anatomical features, such as bone shapes or proportions, used to differentiate species."
+          },
+          {
+            "term": "Histology",
+            "definition": "The study of the microscopic structure of tissues, particularly bone, used in paleontology to analyze growth rates and maturity."
+          },
+          {
+            "term": "Growth Curves",
+            "definition": "Graphical representations showing how an organism's size or mass changes over time, indicating growth rates and maturity stages."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "title": "Distinct Anatomical Features",
+        "image": "images/nanotyrannus/NanoT19.png",
+        "caption": "The study reveals over 150 morphological characters that differentiate *Nanotyrannus* from *T. rex*. These include differences in skull proportions, tooth shape, and bone structures. Crucially, no intermediate forms combining features of both animals have ever been found, suggesting they are not part of the same growth series and represent distinct taxa."
+      },
+      {
+        "page_type": "content",
+        "title": "Mature Bone Textures",
+        "image": "images/nanotyrannus/NanoT12.png",
+        "caption": "One key argument for *Nanotyrannus* being a juvenile *T. rex* was the presence of striated bone texture, typically associated with rapid growth in young dinosaurs. However, this study re-examines the evidence, finding that *Nanotyrannus* specimens exhibit mature skull bone textures, indicating they were not rapidly growing juveniles but rather subadults or young adults."
+      },
+      {
+        "page_type": "content",
+        "title": "Skeletal Fusions and Decelerating Growth",
+        "image": "images/nanotyrannus/Nanotyrannus_Fusion.jpg",
+        "caption": "Further evidence for maturity comes from skeletal fusions observed in *Nanotyrannus* specimens. These fusions typically occur as an animal approaches adulthood. Additionally, histological analysis shows decelerating growth rates in their final years of life, a pattern characteristic of subadults and young adults, not the rapid, accelerating growth expected of juvenile *Tyrannosaurus*."
+      },
+      {
+        "page_type": "content",
+        "title": "Predicting Adult Size",
+        "image": "images/nanotyrannus/NanoT27.png",
+        "caption": "Growth curve predictions based on bone histology estimate that *Nanotyrannus* would have reached an adult mass of approximately 1500 kg or less. This is significantly smaller than the multi-ton adult *T. rex*, further supporting the conclusion that these animals are subadults and young adults of a distinct, smaller species, not juvenile *Tyrannosaurus* that would grow to immense sizes."
+      }
+    ]
+  },
+  {
+    "post_id": "Nanotyrannus_Mystery_3",
+    "article_id": "Nanotyrannus_lancensis",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "Beyond T. rex: Comparative & Phylogenetic Insights",
+        "teaser": "How do other tyrannosaur growth series compare? And where does *Nanotyrannus* fit into the tyrannosaur family tree? This post explores comparative growth patterns and phylogenetic analysis, reinforcing *Nanotyrannus*'s status as a distinct species.",
+        "key_terms": [
+          {
+            "term": "Growth Series",
+            "definition": "A sequence of fossils representing different growth stages of a single species, used to understand developmental changes."
+          },
+          {
+            "term": "Phylogenetic Analysis",
+            "definition": "A method used to infer evolutionary relationships between species, often represented as a branching tree diagram."
+          },
+          {
+            "term": "Tyrannosauridae",
+            "definition": "A family of large carnivorous dinosaurs that includes well-known genera like *Tyrannosaurus rex* and *Albertosaurus*."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "title": "Growth Patterns of Other Tyrannosaurids",
+        "image": "images/nanotyrannus/NanoT20.png",
+        "caption": "The study compares the proposed *Nanotyrannus*\u2013*Tyrannosaurus* growth series with known growth series of other tyrannosaurids like *Tarbosaurus* and *Gorgosaurus*(pictured). These comparisons reveal that the morphological changes required to transform *Nanotyrannus* into *T. rex* are inconsistent with known patterns of dinosaur development, further undermining the juvenile *T. rex* hypothesis."
+      },
+      {
+        "page_type": "content",
+        "title": "Juvenile T. rex Exist",
+        "image": "images/nanotyrannus/Juvenile_TRex.jpg",
+        "caption": "Crucially, actual juvenile *T. rex* specimens exist, and they already display diagnostic features of *Tyrannosaurus*. This means that young *T. rex* look like smaller versions of adult *T. rex*, not like *Nanotyrannus*, providing direct evidence against the idea that *Nanotyrannus* is a juvenile *T. rex* and reinforcing its distinct identity."
+      },
+      {
+        "page_type": "content",
+        "title": "Phylogenetic Placement of Nanotyrannus",
+        "image": "images/nanotyrannus/Phylogenic_Tree.png",
+        "caption": "Phylogenetic analysis, which reconstructs evolutionary relationships, suggests that *Nanotyrannus* may lie outside of Tyrannosauridae altogether. This placement would mean it represents a deeper diverging lineage of tyrannosauroid, making it impossible for it to be a juvenile *T. rex*, which is firmly nested within Tyrannosauridae."
+      },
+      {
+        "page_type": "content",
+        "title": "Rethinking Dinosaur Diversity",
+        "image": "images/nanotyrannus/Nanotyrannus_TRex.jpg",
+        "caption": "The strong evidence supporting *Nanotyrannus* as a distinct species highlights a higher diversity of tyrannosaurs and predatory dinosaurs in the late Maastrichtian of Laramidia than previously thought. This challenges the assumption of low diversity in ancient ecosystems and suggests that paleontologists may be systematically underestimating the true richness of past life, urging for further study of fossil species."
+      }
+    ]
+  }
+]

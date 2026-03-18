@@ -1,0 +1,174 @@
+[
+  {
+    "post_id": "AI_Challenge_Football",
+    "article_id": "AI_based_Classification_American_Football_Plays",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "The AI Challenge: Predicting American Football Plays",
+        "teaser": "Can artificial intelligence predict the next play in American Football before it even starts? This research explores combining computer vision and historical data to give teams a crucial edge.",
+        "key_terms": [
+          {
+            "term": "Pre-snap",
+            "definition": "The period in American Football immediately before the ball is snapped to begin a play."
+          },
+          {
+            "term": "Play-by-Play Data",
+            "definition": "Detailed records of every action and outcome during a football game."
+          },
+          {
+            "term": "Computer Vision",
+            "definition": "A field of AI that enables computers to 'see' and interpret visual information from images and videos."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Figure 1: Response times of American football players in three different scenarios.",
+        "image": "PLACEHOLDER: A bar chart showing three scenarios of defensive player reaction times: uncertain (368ms), misinformed (274ms), and knowing the play (284ms), highlighting the significant reduction when the play type is known.",
+        "caption": "In American Football, every millisecond counts. Studies show that knowing the opposing team's play type can reduce a player's reaction time by over 20%\u2014a difference of nearly 100ms in a game where plays average just four seconds. This crucial advantage highlights the potential impact of accurate pre-snap play prediction, making AI a game-changing tool."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "PLACEHOLDER: A collage of survey questions from Figures 4, 5, 6, 7, and 8, showing examples of pre-snap images and questions about predicting play types and important features.",
+        "image": "PLACEHOLDER: A collage of screenshots from the player survey, showing a pre-snap image of a football field with players, overlaid with questions like 'What play do you think is coming?' or 'What features do you look at?'.",
+        "caption": "To understand human intuition, a survey was conducted among American football players. Participants were shown pre-snap images and asked to predict plays and identify key visual cues. This provided valuable insights into how experienced players analyze formations, player positions, and field dynamics to anticipate offensive strategies, informing the AI's development."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "PLACEHOLDER: An abstract graphic representing the integration of computer vision and historical data, leading to a prediction.",
+        "image": "PLACEHOLDER: An infographic illustrating the concept of combining visual data (camera icon) and historical text data (database icon) feeding into an AI model (brain icon) to output a play prediction (football icon).",
+        "caption": "The core question driving this research is whether artificial intelligence can not only predict football plays but potentially outperform human intuition. By integrating advanced computer vision techniques with extensive historical play-by-play data, this study aims to build a robust model capable of accurately classifying plays as either a 'pass' or a 'run' before the ball is even snapped."
+      }
+    ]
+  },
+  {
+    "post_id": "Seeing_Game_Computer_Vision",
+    "article_id": "AI_based_Classification_American_Football_Plays",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "Seeing the Game: Computer Vision for Football Play Prediction",
+        "teaser": "How can AI 'see' and understand the complex visual cues on a football field? This post dives into the computer vision techniques used to extract critical information from pre-snap images.",
+        "key_terms": [
+          {
+            "term": "YOLOv8",
+            "definition": "'You Only Look Once' version 8, a state-of-the-art real-time object detection algorithm."
+          },
+          {
+            "term": "Homography Transformation",
+            "definition": "A geometric transformation that maps points from one plane to another, used here to correct perspective in images."
+          },
+          {
+            "term": "Optical Character Recognition (OCR)",
+            "definition": "Technology that enables a computer to convert text from images into editable and searchable data."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Figure 19: Example of player detection model on image. (Also Figure 13 for scoreboard)",
+        "image": "PLACEHOLDER: A split image. On one side, a football game screenshot with a detected scoreboard highlighted. On the other side, the same screenshot with individual players detected and bounded by boxes.",
+        "caption": "The first step in visual analysis is identifying crucial elements on the field. YOLOv8, a powerful object detection model, was trained to accurately locate scoreboards and individual players within pre-snap images. Scoreboard detection allows for extracting game context like down, distance, and score via OCR, while player detection forms the basis for understanding formations and positions."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Figure 21: Detected players and lines combined. (Also Figure 22 for Homography)",
+        "image": "PLACEHOLDER: A football field screenshot with detected yard lines highlighted in bright colors, and then an overlay showing how these lines are used to transform the image to a bird's-eye view.",
+        "caption": "Understanding player positions requires a consistent frame of reference. The HoughLinesP algorithm is used to detect the critical yard lines on the field. Once detected, a homography transformation corrects the camera's perspective, flattening the field into a standardized bird's-eye view. This crucial step normalizes player coordinates, making their relative positions comparable across different images and plays."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Figure 24: Visualization of the visual feature extraction algorithm.",
+        "image": "PLACEHOLDER: A diagram showing the flow from a transformed bird's-eye view of players to calculated features like 'defenders in the box,' 'offensive formation,' and 'shotgun formation.'",
+        "caption": "With players and field lines normalized, the system extracts meaningful visual features. This includes calculating the number of 'defenders in the box' (close to the line of scrimmage), identifying offensive formations (e.g., I-formation, shotgun), and determining if the quarterback is in a shotgun stance. These quantitative features, derived purely from visual data, provide critical input for predicting the upcoming play."
+      }
+    ]
+  },
+  {
+    "post_id": "Beyond_Visuals_Combined_Data",
+    "article_id": "AI_based_Classification_American_Football_Plays",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "Beyond the Visuals: Combining Data for Smarter Football Predictions",
+        "teaser": "Visual cues are just one piece of the puzzle. This post explores how historical play-by-play data is leveraged and combined with computer vision to build a comprehensive prediction model.",
+        "key_terms": [
+          {
+            "term": "XGBoost",
+            "definition": "Extreme Gradient Boosting, a powerful and efficient machine learning algorithm for classification and regression tasks."
+          },
+          {
+            "term": "Feature Engineering",
+            "definition": "The process of selecting, transforming, and creating new variables from raw data to improve model performance."
+          },
+          {
+            "term": "Information Gain",
+            "definition": "A metric used in decision tree algorithms to measure the reduction in entropy or uncertainty after splitting a dataset based on a particular feature."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "figure_label": "PLACEHOLDER: A snippet of a table showing raw historical NFL play-by-play data, with columns like 'down', 'distance', 'yardline', 'play_type', etc.",
+        "image": "PLACEHOLDER: A table displaying a few rows of raw NFL play-by-play data, showing various columns like 'game_id', 'play_id', 'down', 'yards_to_go', 'offensive_formation', 'play_type' (run/pass).",
+        "caption": "Beyond what's visible, historical context is vital for accurate predictions. This research utilizes extensive NFL play-by-play data from NFLVerse, containing details like down, distance, field position, and previous play outcomes. This rich dataset provides the textual foundation for understanding patterns and tendencies that influence play calling, complementing the real-time visual analysis."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Figure 27: Relationship between Play Type and Defenders in Box. (Also Figure 28, 29, 30)",
+        "image": "PLACEHOLDER: A series of small bar charts or scatter plots, each illustrating the relationship between a specific feature (e.g., 'yards to go', 'offensive formation', 'defenders in box') and the 'play type' (run/pass).",
+        "caption": "Raw data needs refinement to become truly predictive. Through meticulous preprocessing and feature engineering, the historical data is transformed into impactful variables. Techniques like Information Gain and Particle Swarm Optimization (PSO) were employed to identify the most crucial features, such as 'yards to go', 'offensive formation', and 'defenders in the box', which strongly correlate with the likelihood of a pass or run play."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Figure 12: Project Architecture of the approach.",
+        "image": "PLACEHOLDER: A simplified diagram of the overall project architecture, showing visual features (from CV) and text features (from historical data) feeding into a combined model (XGBoost) to predict 'Pass' or 'Run.'",
+        "caption": "The power of this research lies in its integrated approach. Visual features extracted by computer vision (like player positions and formations) are combined with the context-rich features derived from historical play-by-play data. This comprehensive dataset then feeds into an XGBoost model, chosen for its robust performance, to make a unified and informed prediction of whether the upcoming play will be a pass or a run."
+      }
+    ]
+  },
+  {
+    "post_id": "AIs_Touchdown_Results_Future",
+    "article_id": "AI_based_Classification_American_Football_Plays",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "AI's Touchdown: Results and the Future of Sports Analytics",
+        "teaser": "Did the AI model succeed in predicting American Football plays? Discover the performance metrics, the challenges faced, and the exciting future of artificial intelligence in sports.",
+        "key_terms": [
+          {
+            "term": "Accuracy",
+            "definition": "The proportion of correctly predicted instances out of the total instances."
+          },
+          {
+            "term": "Precision",
+            "definition": "The proportion of true positive predictions among all positive predictions."
+          },
+          {
+            "term": "Recall",
+            "definition": "The proportion of true positive predictions among all actual positive instances."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Table 9: Testing Metrics of XGBoost Model. (Also Table 10 for Validation)",
+        "image": "PLACEHOLDER: A visually appealing infographic showing the key performance metrics (Accuracy, Precision, Recall, F1-score) for the integrated model, highlighting the 74.13% test accuracy.",
+        "caption": "The integrated model achieved promising results, demonstrating its potential for predicting American Football plays. With a test accuracy of 74.13% and a validation accuracy of 73.78%, the model successfully classified plays as 'pass' or 'run' significantly better than random chance. These metrics, alongside strong precision and recall, highlight the effectiveness of combining visual and historical data for robust predictions."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Figure 36: Results: 6. Visual feature extraction. (Also Figures 31-35 for intermediate steps)",
+        "image": "PLACEHOLDER: A composite image showing the final output of the visual feature extraction pipeline: a bird's-eye view of the field with detected players, yard lines, and overlaid text indicating extracted features like 'Defenders in Box: 6', 'Offensive Formation: Shotgun', 'Yards to Go: 7'.",
+        "caption": "The research provides a clear visualization of how the AI 'sees' the game. From detecting scoreboards and players to correcting perspective and identifying formations, each step contributes to a rich set of visual features. This detailed extraction process allows the model to quantify complex on-field dynamics, translating visual information into actionable data for prediction and offering transparency into the AI's decision-making."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "PLACEHOLDER: An abstract graphic representing future AI advancements in sports, perhaps with a coach analyzing data on a tablet.",
+        "image": "PLACEHOLDER: An illustration depicting a football coach or analyst using a tablet or screen displaying advanced analytics and predictive insights, with AI elements subtly integrated.",
+        "caption": "While achieving significant accuracy, the model faces limitations, such as varying camera angles and the dynamic nature of player movements. Future improvements could involve incorporating temporal data (video sequences), more granular player roles, and real-time adaptation. This research paves the way for advanced predictive analytics in sports, offering valuable insights for coaches, analysts, and the broader football and data science communities, potentially revolutionizing game strategy."
+      }
+    ]
+  }
+]

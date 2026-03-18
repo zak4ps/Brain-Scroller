@@ -1,0 +1,180 @@
+[
+  {
+    "post_id": "GravitationalWaves_Genesis",
+    "article_id": "GravitationalWaves",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "The Genesis of Gravitational Waves",
+        "teaser": "A century before their direct detection, Albert Einstein's groundbreaking theories laid the foundation for understanding gravitational waves. Explore the intellectual journey from special relativity to the prediction of ripples in spacetime.",
+        "key_terms": [
+          {
+            "term": "General Relativity",
+            "definition": "Einstein's theory describing gravity as a manifestation of spacetime curvature."
+          },
+          {
+            "term": "Spacetime",
+            "definition": "A four-dimensional continuum combining space and time, which can be warped by mass and energy."
+          },
+          {
+            "term": "Principle of Equivalence",
+            "definition": "The idea that gravity is indistinguishable from acceleration, a cornerstone of general relativity."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "title": "Einstein's Revolutionary Spacetime",
+        "image": "images/physics/GWaves1.jpg",
+        "caption": "In 1905, Einstein introduced special relativity, showing space and time are relative. A decade later, his general theory of relativity (1915) redefined gravity, proposing it's not a force but a manifestation of spacetime curvature. This elegant theory explained phenomena like Mercury's anomalous orbit and predicted light deflection by gravity."
+      },
+      {
+        "page_type": "content",
+        "title": "Early Proofs of General Relativity",
+        "image": "images/physics/GWaves2.jpg",
+        "caption": "Acceptance of general relativity grew with experimental evidence. The 1919 solar eclipse measurements confirmed light deflection by gravity, doubling Newtonian predictions. Further tests, including gravitational redshifts (1950s) and time delay (1960s), consistently validated Einstein's revolutionary ideas, setting the stage for even more profound discoveries."
+      },
+      {
+        "page_type": "content",
+        "title": "Predicting Ripples in Spacetime",
+        "image": "images/physics/GWaves3.jpg",
+        "caption": "As early as 1916, Einstein predicted that if spacetime could curve, it could also undulate if matter accelerated, creating gravitational waves. Despite initial mathematical errors and skepticism from figures like Eddington, the concept was solidified in 1957. Physicists like Felix Pirani and Richard Feynman demonstrated that these waves were real and carried energy, making their eventual detection a tangible goal."
+      }
+    ]
+  },
+  {
+    "post_id": "GravitationalWaves_Quest",
+    "article_id": "GravitationalWaves",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "The Quest for Gravitational Wave Detection",
+        "teaser": "From serendipitous astronomical discoveries to pioneering but flawed experiments, the journey to directly detect gravitational waves was long and challenging. Discover the crucial steps that paved the way for modern observatories.",
+        "key_terms": [
+          {
+            "term": "Binary Pulsar",
+            "definition": "A system of two neutron stars, one of which is a pulsar, orbiting each other."
+          },
+          {
+            "term": "Orbital Decay",
+            "definition": "The gradual decrease in the orbital period and separation of a binary system due to energy loss, primarily through gravitational waves."
+          },
+          {
+            "term": "Resonant Detector (Weber Bar)",
+            "definition": "An early type of gravitational wave detector consisting of a large metal bar designed to resonate when struck by a gravitational wave."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "title": "Indirect Proof: Binary Pulsars",
+        "image": "images/physics/GWaves4.png",
+        "caption": "The first evidence for gravitational waves came indirectly. In 1974, Hulse and Taylor discovered the first binary pulsar, a system of two neutron stars. According to Einstein's theory, such systems should lose energy by emitting gravitational waves, causing their orbits to decay. Measurements in 1981 confirmed this orbital decay, matching Einstein's predictions precisely and earning them the 1993 Nobel Prize."
+      },
+      {
+        "page_type": "content",
+        "title": "Pioneering Direct Detection: Weber Bars",
+        "image": "images/physics/GWaves5.jpg",
+        "caption": "Inspired by the theoretical possibility, Joe Weber built the first ground-based gravitational wave detectors in 1965: massive aluminum cylinders designed to resonate when squeezed and stretched by a passing wave. In 1969, Weber claimed a detection, but his results couldn't be replicated, and the signals were far too strong for astrophysical sources. While ultimately unverified, his work ignited the experimental field."
+      },
+      {
+        "page_type": "content",
+        "title": "The Birth of the Interferometer Concept",
+        "image": "images/physics/GWaves6.jpg",
+        "caption": "Despite the setbacks with Weber bars, the field was stimulated. In 1972, Rainer Weiss at MIT laid out the detailed design for a new type of detector: the laser interferometer. This innovative approach, which measures minute changes in arm lengths using laser light, would become the foundational blueprint for future observatories like LIGO, promising the sensitivity needed for direct detection."
+      }
+    ]
+  },
+  {
+    "post_id": "GravitationalWaves_LIGO",
+    "article_id": "GravitationalWaves",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "Building the Ultimate Gravitational Wave Detector: LIGO",
+        "teaser": "The direct detection of gravitational waves required an engineering marvel: the Laser Interferometer Gravitational-wave Observatory (LIGO). Explore the ingenious design, the extreme precision, and the battle against noise that made this scientific triumph possible.",
+        "key_terms": [
+          {
+            "term": "Laser Interferometer",
+            "definition": "A device that uses laser light and interference patterns to detect tiny changes in distance, crucial for gravitational wave detection."
+          },
+          {
+            "term": "Fabry-Perot Configuration",
+            "definition": "An optical setup using multiple mirrors to reflect light many times, effectively increasing the path length and measurement sensitivity."
+          },
+          {
+            "term": "Newtonian Noise",
+            "definition": "Gravitational fluctuations caused by local density changes (e.g., seismic waves in the ground) that directly pull on detector components, unshieldable by conventional means."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "title": "How a Laser Interferometer Works",
+        "image": "images/physics/GravityWaves1.png",
+        "caption": "LIGO and similar detectors are L-shaped interferometers with arms several kilometers long. A laser beam is split, sent down each arm, reflected by mirrors, and recombined. When a gravitational wave passes, it stretches one arm while squeezing the other, causing a tiny difference in the light's travel time. This shift creates a measurable change in the interference pattern, signaling the wave's presence."
+      },
+      {
+        "page_type": "content",
+        "title": "Measuring the Impossibly Small",
+        "image": "images/physics/GravityWaves03.png",
+        "caption": "The challenge is immense: the first detected gravitational waves caused LIGO's 4-km arms to change length by only 4 x 10^-16 cm\u2014about 1/200th the radius of a proton! To achieve this impossible precision, LIGO uses a Fabry-Perot configuration, bouncing laser light thousands of times within the arms. This effectively lengthens the light's path, amplifying the tiny changes caused by gravitational waves."
+      },
+      {
+        "page_type": "content",
+        "title": "Battling Earth's Tremors and Gravity",
+        "image": "images/physics/GravityWaves6.png",
+        "caption": "Earth is a noisy place. Seismic vibrations are mitigated by suspending LIGO's mirrors from multi-stage pendulums, which filter out ground shaking. However, 'Newtonian noise'\u2014tiny gravitational pulls from local density changes in the ground\u2014is unshieldable. Scientists combat this by sophisticated subtraction techniques, considering underground detectors, or even placing future observatories in space to escape Earth's gravitational interference."
+      }
+    ]
+  },
+  {
+    "post_id": "GravitationalWaves_Dawn",
+    "article_id": "GravitationalWaves",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "The Dawn of Gravitational Wave Astronomy",
+        "teaser": "In 2015, a century-long quest culminated in the direct detection of gravitational waves, opening an entirely new window to the universe. Witness the groundbreaking discoveries that followed, including the birth of multi-messenger astronomy.",
+        "key_terms": [
+          {
+            "term": "Direct Detection",
+            "definition": "The observation of gravitational waves by instruments on Earth, as opposed to inferring their existence from indirect effects."
+          },
+          {
+            "term": "Multi-messenger Astronomy",
+            "definition": "The study of cosmic objects and phenomena using multiple 'messengers' (e.g., gravitational waves, electromagnetic radiation, neutrinos, cosmic rays)."
+          },
+          {
+            "term": "Gamma-Ray Burst (GRB)",
+            "definition": "The most energetic explosions in the universe, often associated with the collapse of massive stars or the merger of neutron stars."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "title": "The First Unmistakable Signal",
+        "image": "images/physics/GravityWaves2.png",
+        "caption": "After decades of development, LIGO's detectors were finally sensitive enough. On September 14, 2015, almost immediately after being turned on, they registered an unmistakable signal: GW150914. This was the direct detection of gravitational waves from two merging black holes, a monumental discovery that confirmed Einstein's prediction and ushered in a new era of astronomy. The LIGO team spent months validating the data before announcing this historic event."
+      },
+      {
+        "page_type": "content",
+        "title": "Multi-Messenger Astronomy is Born",
+        "image": "images/physics/GravityWaves02.jpg",
+        "caption": "The revolution continued in 2017 with GW170817, the detection of gravitational waves from a double neutron star merger. Crucially, this event was followed less than two seconds later by a short gamma-ray burst, detected by the Fermi observatory. This simultaneous observation marked the birth of multi-messenger astronomy, allowing scientists to study cosmic events through both gravitational waves and electromagnetic radiation, providing unprecedented insights."
+      },
+      {
+        "page_type": "content",
+        "title": "Confirming the Speed of Gravity",
+        "image": "images/physics/GWaves8.png",
+        "caption": "The multi-messenger event GW170817 provided another profound confirmation of Einstein's theory: the speed of gravitational waves. By comparing the arrival times of the gravitational wave signal and the subsequent gamma-ray burst, scientists determined that gravitational waves travel at the speed of light, with an astonishing accuracy better than one part in 10^15. This measurement placed stringent constraints on alternative theories of gravity."
+      },
+      {
+        "page_type": "content",
+        "title": "A New Window to the Universe",
+        "image": "images/physics/GravityWaves4.png",
+        "caption": "The direct detection of gravitational waves has opened an entirely new window onto the universe. It has enabled unprecedented tests of the nature of gravity, provided new ways to study the properties of black holes and neutron stars, and offered fresh perspectives on fundamental physics. Gravitational-wave astronomy is a rapidly evolving field, promising many more discoveries as detectors become even more sensitive."
+      }
+    ]
+  }
+]
