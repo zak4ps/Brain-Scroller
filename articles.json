@@ -1,30 +1,37 @@
 [
   {
-    "article_id": "NanoTyrannus",
+    "article_id": "Nanotyrannus_lancensis",
     "title": "Nanotyrannus Debate",
-    "source_pdf": "fossstud-02-00001-v2.pdf",
+    "source_pdf": "nanotyrannus.pdf",
     "type": "Educational",
     "category": "Dinosaurs"
   },
   {
-    "article_id": "Vaquita",
+    "article_id": "PhocoenaSinus",
     "title": "Vaquita",
     "source_pdf": "vaquita_articles.pdf",
     "type": "Educational",
     "category": "Marine Biology"
   },
-    {
-        "article_id": "GravitationalWaves",
-        "title": "Gravitational Waves",
-        "source_pdf": "gravitational_waves.pdf",
-        "type": "Educational",
-        "category": "Physics"
-    },
-    {
-        "article_id": "GlacialDetachment",
-        "title": "Glacial Detachment",
-        "source_pdf": "glaciers.pdf",
-        "type": "Educational",
-        "category": "Geology"
-    }
+  {
+      "article_id": "GravitationalWaves",
+      "title": "Gravitational Waves",
+      "source_pdf": "gravitational_waves.pdf",
+      "type": "Educational",
+      "category": "Physics"
+  },
+  {
+      "article_id": "SeaOtters",
+      "title": "Sea Otters",
+      "source_pdf": "sea_otters.pdf",
+      "type": "Educational",
+      "category": "Marine Biology"
+  },
+  {
+      "article_id": "AutomatedFootballAnalysis",
+      "title": "AI in Football Analysis",
+      "source_pdf": "football.pdf",
+      "type": "Educational",
+      "category": "Sports Analytics"
+  }
 ]

@@ -1,36 +1,40 @@
 from flask import Flask, render_template, request
 import json
 import random
+import os
 
 app = Flask(__name__)
 
 # Load article metadata
-with open("articles.json", encoding="utf-8") as f:
+with open("articles.json", encoding="utf-8-sig") as f:
     ARTICLES = {a["article_id"]: a for a in json.load(f)}
 
 # Load posts from separate files
 POSTS = []
-for filename in ["nanot.json", "vaquita.json", "physics.json", "glaciers.json"]:
-    with open(filename, encoding="utf-8") as f:
+for filename in ["json/nanotyrannus.json", "json/vaquita.json", "json/gravitational_waves.json", "json/sea_otters.json", "json/football.json"]:
+    with open(filename, encoding="utf-8-sig") as f:
         POSTS.extend(json.load(f))
 
 
 def attach_article_data(posts):
     enriched = []
-
     for post in posts:
-
         article = ARTICLES.get(post["article_id"], {})
-
-        enriched.append({
-            "post_id": post["post_id"],
-            "article_id": post["article_id"],
-            "title": article.get("title"),
-            "type": article.get("type"),
-            "category": article.get("category"),
-            "pages": post["pages"]
-        })
-
+        
+        # We keep the structure but ensure we aren't losing the new 
+        # fields (theme, teaser, key_terms) during the enrichment process.
+        enriched_post = {
+            "post_id": post.get("post_id"),
+            "article_id": post.get("article_id"),
+            "title": article.get("title", "Unknown Title"),
+            "type": article.get("type", "General"),
+            "category": article.get("category", "Uncategorized"),
+            "theme": post.get("pages", [{}])[0].get("title", "General Overview"), # New field from processor.py
+            "pages": post.get("pages", [])
+        }
+        
+        
+        enriched.append(enriched_post)
     return enriched
 
 
@@ -38,21 +42,40 @@ POSTS = attach_article_data(POSTS)
 
 
 def filter_posts(types, categories, articles):
-
     results = POSTS
 
+    # 1. Apply initial filters
     if types:
         results = [p for p in results if p["type"] in types]
-
     if categories:
         results = [p for p in results if p["category"] in categories]
-
     if articles:
         results = [p for p in results if p["article_id"] in articles]
 
-    random.shuffle(results)
+    # 2. Group posts by article_id (maintaining their relative order)
+    grouped = {}
+    for post in results:
+        aid = post["article_id"]
+        if aid not in grouped:
+            grouped[aid] = []
+        grouped[aid].append(post)
 
-    return results
+    # 3. Shuffle the ORDER of the groups themselves 
+    # (So one session starts with Physics, another starts with Dinosaurs)
+    article_ids = list(grouped.keys())
+    random.shuffle(article_ids)
+
+    # 4. Round Robin Interleaving
+    interleaved_results = []
+    max_posts = max([len(posts) for posts in grouped.values()]) if grouped else 0
+
+    for i in range(max_posts):
+        for aid in article_ids:
+            # If this article still has a post at this index, add it
+            if i < len(grouped[aid]):
+                interleaved_results.append(grouped[aid][i])
+
+    return interleaved_results
 
 
 @app.route("/")
@@ -78,4 +101,5 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
