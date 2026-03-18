@@ -1,168 +1,262 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-
-body{
-    font-family: Arial;
-    background:#f4f4f4;
-    margin:0;
+/* Base Dark Mode Setup */
+body { 
+    font-family: Arial, sans-serif; 
+    background: #000000; 
+    color: #ffffff; 
+    margin: 0; 
 }
 
-.feed{
-    max-width:600px;
-    margin:auto;
-    height:100vh;
-    overflow-y:scroll;
-    scroll-snap-type:y mandatory;
+.feed { 
+    max-width: 600px; 
+    margin: auto; 
+    height: 100vh; 
+    overflow-y: scroll; 
+    scroll-snap-type: y mandatory; 
+    background: #000000; 
+    scrollbar-width: none; /* Hide scrollbar for Chrome/Safari/Firefox */
 }
 
-.post{
-    background:white;
-    margin:0;
-    border-radius:10px;
-    overflow:hidden;
-    box-shadow:0 2px 6px rgba(0,0,0,0.1);
-    scroll-snap-align:start;
-    height:100vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+.feed::-webkit-scrollbar { display: none; }
+
+.post { 
+    background: #1a1a1a; 
+    margin: 0; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    scroll-snap-align: start; 
+    height: 100dvh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    position: relative; /* Needed for absolute positioning of dots */
 }
 
-.carousel{
-    display:flex;
-    overflow-x:hidden;
-    scroll-snap-type:x mandatory;
-    flex:1;
-    position:relative;
-    align-items:center;
+.carousel { 
+    display: flex; 
+    overflow-x: hidden; 
+    scroll-snap-type: x mandatory; 
+    flex: 1; 
+    position: relative; 
+    align-items: center; 
 }
 
-.page{
-    min-width:100%;
-    scroll-snap-align:start;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    height:100%;
+.page { 
+    min-width: 100%; 
+    scroll-snap-align: start; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
 }
 
-.page img{
-    max-width:100%;
-    max-height:70vh;
-    object-fit:contain;
+/* Dot Indicators Style */
+.indicator-container {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    z-index: 20;
+    pointer-events: none;
 }
 
-.caption{
-    padding:10px 15px;
-    text-align:center;
-    font-size:15px;
+.dot {
+    width: 6px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.counter{
-    position:absolute;
-    top:10px;
-    right:10px;
-    background:rgba(0,0,0,0.6);
-    color:white;
-    padding:4px 8px;
-    border-radius:12px;
-    font-size:12px;
+.dot.active {
+    background: #ffffff;
+    transform: scale(1.2);
 }
 
-.image-container{
-    position:relative;
-    width:100%;
-    display:flex;
-    justify-content:center;
+/* Title Cards */
+.title-card-content {
+    padding: 30px;
+    text-align: center;
+    background: #2c3e50;
+    color: white;
+    height: 80%;
+    width: 85%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.figure{
-    font-weight:bold;
-    font-size:18px;
-    text-align:center;
-    padding:10px 15px;
-    margin-bottom:10px;
+.cat-dinosaurs { background: #3d4d1d; } 
+.cat-marine-biology { background: #1e5d8a; } 
+.cat-physics { background: #3a0063; } 
+.cat-geology { background: #5e3626; } 
+.cat-default { background: #2c3e50; }
+.cat-sports-analytics { background: #d35400;}
+
+.title-card-content h1 { font-size: 28px; margin-bottom: 15px; }
+.teaser { font-style: italic; font-size: 18px; opacity: 0.9; margin-bottom: 25px; }
+.glossary { 
+    text-align: left; 
+    background: rgba(255, 255, 255, 0.05); 
+    padding: 15px; 
+    border-radius: 8px; 
+    font-size: 14px; 
+}
+.glossary b { color: #f1c40f; }
+
+.page img { 
+    max-width: 100%; 
+    max-height: 65vh; 
+    object-fit: contain; 
+    filter: brightness(0.9); 
 }
 
+.placeholder-box {
+    width: 100%;
+    height: 40vh;
+    background: #222; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    border: 2px dashed #444;
+}
+
+.caption { 
+    padding: 15px; 
+    text-align: center; 
+    font-size: 15px; 
+    line-height: 1.4; 
+    color: #dddddd; 
+}
+
+.figure { 
+    font-weight: bold; 
+    font-size: 18px; 
+    text-align: center; 
+    padding: 10px 15px; 
+    color: #ffffff; 
+}
 </style>
 </head>
 
 <body>
-
 <div class="feed">
-
 {% for post in posts %}
 <div class="post">
+    <div class="indicator-container">
+        {% for page in post.pages %}
+            <div class="dot {% if loop.first %}active{% endif %}"></div>
+        {% endfor %}
+    </div>
 
-<div class="carousel">
+    <div class="carousel">
+    {% for page in post.pages %}
+        <div class="page">
+            {% if page.page_type == "title_card" %}
+                <div class="title-card-content cat-{{ post.category | lower | replace(' ', '-') }}">
+                    <h1>{{ page.title }}</h1>
+                    <p class="teaser">{{ page.teaser }}</p>
+                    
+                    {% if page.key_terms %}
+                    <div class="glossary">
+                        <strong>Key Terms:</strong><br>
+                        {% for item in page.key_terms %}
+                            <p><b>{{ item.term }}:</b> {{ item.definition }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            {% else %}
+                <div class="figure">{{ page.figure_label }}</div>
+                
+                <div class="image-container">
+                    {% if "PLACEHOLDER" in page.image.upper() %}
+                        <div class="placeholder-box">
+                            <i><b>Visual Suggestion:</b><br>
+                            {{ page.image | replace('PLACEHOLDER:', '') | replace('placeholder:', '') | trim }}</i>
+                        </div>
+                    {% else %}
+                        <img src="{{ url_for('static', filename=page.image) }}">
+                    {% endif %}
+                </div>
 
-{% for page in post.pages %}
-<div class="page">
-
-<div class="figure">{{page.figure}}</div>
-
-<div class="image-container">
-<img src="{{ url_for('static', filename='images/' + page.image) }}">
-
-<div class="counter">
-{{loop.index}} / {{post.pages|length}}
-</div>
-</div>
-
-<div class="caption">
-{{page.caption}}
-</div>
-
+                <div class="caption">{{ page.caption }}</div>
+            {% endif %}
+        </div>
+    {% endfor %}
+    </div>
 </div>
 {% endfor %}
-
-</div>
-
-</div>
-{% endfor %}
-
 </div>
 
 <script>
-
 document.querySelectorAll('.carousel').forEach(carousel => {
+    let startX = 0;
+    let currentIndex = 0;
+    const pages = carousel.querySelectorAll('.page');
+    const totalPages = pages.length;
+    
+    // Find dots within the same parent .post container
+    const dots = carousel.parentElement.querySelectorAll('.dot');
 
-let startX = 0
-let currentIndex = 0
-const pages = carousel.querySelectorAll('.page')
-const totalPages = pages.length
+    function updateCarousel(){
+        carousel.scrollTo({
+            left: pages[currentIndex].offsetLeft,
+            behavior: 'smooth'
+        });
 
-function updateCarousel(){
-carousel.scrollTo({
-left: pages[currentIndex].offsetLeft,
-behavior:'smooth'
-})
-}
+        // Toggle 'active' class on dots
+        dots.forEach((dot, index) => {
+            if (index === currentIndex) {
+                dot.classList.add('active');
+            } else {
+                dot.classList.remove('active');
+            }
+        });
+    }
 
-carousel.addEventListener('touchstart', e=>{
-startX = e.touches[0].clientX
-})
+    carousel.addEventListener('touchstart', e => { 
+        startX = e.touches[0].clientX; 
+    });
 
-carousel.addEventListener('touchend', e=>{
+    carousel.addEventListener('touchend', e => {
+        let endX = e.changedTouches[0].clientX;
+        let diff = startX - endX;
 
-let endX = e.changedTouches[0].clientX
-let diff = startX - endX
+        // Swipe threshold of 50px
+        if(diff > 50 && currentIndex < totalPages - 1) {
+            currentIndex++;
+        } else if(diff < -50 && currentIndex > 0) {
+            currentIndex--;
+        }
+        
+        updateCarousel();
+    });
 
-if(diff>50 && currentIndex<totalPages-1) currentIndex++
-if(diff<-50 && currentIndex>0) currentIndex--
-
-updateCarousel()
-
-})
-
-})
-
+    // Optional: Update dots if user uses mouse wheel or trackpad to scroll horizontally
+    carousel.addEventListener('scroll', () => {
+        let scrollIndex = Math.round(carousel.scrollLeft / carousel.offsetWidth);
+        if (scrollIndex !== currentIndex) {
+            currentIndex = scrollIndex;
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+    });
+});
 </script>
-
 </body>
 </html>
