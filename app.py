@@ -4,7 +4,7 @@ import random
 import os
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates")
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 # Load article metadata
