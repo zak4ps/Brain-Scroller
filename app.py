@@ -30,13 +30,8 @@ for filename in post_files:
     except Exception as e:
         print(f"ERROR loading {filename}: {e}")
 
-# ... (rest of your functions)
 
 # Move the enrichment inside a check
-if POSTS:
-    POSTS = attach_article_data(POSTS)
-else:
-    print("WARNING: No posts loaded. App may appear empty.")
 
 def attach_article_data(posts):
     enriched = []
@@ -59,8 +54,10 @@ def attach_article_data(posts):
         enriched.append(enriched_post)
     return enriched
 
-
-POSTS = attach_article_data(POSTS)
+if POSTS:
+    POSTS = attach_article_data(POSTS)
+else:
+    print("WARNING: No posts loaded. App may appear empty.")
 
 
 def filter_posts(types, categories, articles):
