@@ -1,0 +1,167 @@
+[
+  {
+    "post_id": "Stanford_Prison_Experiment_Setup",
+    "article_id": "StanfordPrisonExperiment",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "The Stanford Prison Experiment: Setting the Stage for Psychological Transformation",
+        "teaser": "In August 1971, a groundbreaking simulation at Stanford University explored the profound psychological effects of imprisonment. What happens when ordinary people are assigned roles of 'prisoner' or 'guard'?",
+        "key_terms": [
+          {
+            "term": "Simulation Study",
+            "definition": "A research method that creates a controlled, artificial environment to mimic real-world conditions and observe behavior."
+          },
+          {
+            "term": "Random Assignment",
+            "definition": "A procedure used in experiments to ensure that each participant has an equal chance of being assigned to any group, minimizing pre-existing differences."
+          },
+          {
+            "term": "Dehumanization",
+            "definition": "The process of depriving a person or group of positive human qualities, often leading to their treatment as objects rather than individuals."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Ad for Prison Study",
+        "image": "images/psych/Psych1.jpg",
+        "caption": "The experiment began with a simple newspaper ad seeking male college students for a study on prison life, offering $15 a day. Over 70 applicants were screened through diagnostic interviews and psychological tests, ensuring only healthy, intelligent individuals with no history of psychological problems or crime were selected. This rigorous selection aimed to start with a baseline of 'normal' participants, making any subsequent behavioral changes attributable to the experimental situation."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Physically constructing Prison",
+        "image": "images/psych/Psych4.jpg",
+        "caption": "The 'Stanford County Jail' was meticulously constructed in the basement of the Psychology Department. Laboratory rooms were converted into cells with special doors and numbers, and a long corridor became the 'yard' \u2013 the only place outside their cells prisoners could walk. The environment was designed to be physically constricting, with no windows or clocks, contributing to a sense of isolation and time distortion, crucial elements in simulating a real prison experience."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Subject searched against police car",
+        "image": "images/psych/Psych3.webp",
+        "caption": "The experiment's immersion began with a shocking, unannounced 'mass arrest' by real Palo Alto police cars. Participants, randomly assigned to be 'prisoners,' were picked up from their homes, charged with armed robbery and burglary, searched, handcuffed, and taken to the police station. This unexpected, public humiliation was designed to immediately strip them of their civilian identity and initiate the psychological impact of imprisonment, even before they reached the simulated jail."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Prisoner being searched",
+        "image": "images/psych/Psych6.jpeg",
+        "caption": "Upon arrival at the 'Stanford County Jail,' prisoners underwent a systematic process of dehumanization. They were searched, stripped naked, and 'deloused' \u2013 a procedure designed to humiliate and symbolize a loss of personal dignity. This ritualistic stripping away of their former selves was a critical step in making them feel anonymous and subservient, preparing them for their new identity as mere numbers within the prison system."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Close-up of Prisoner with uniform",
+        "image": "images/psych/Psych10.jpg",
+        "caption": "The prisoner uniform was carefully designed to foster anonymity and emasculation: a dress-like smock with a number, no underclothes, rubber sandals, and a stocking cap to cover their hair. A heavy chain was bolted to their ankle, a constant reminder of their confinement. These elements, though not always literal replicas of real prison attire, were chosen to quickly induce feelings of humiliation, powerlessness, and a loss of individual identity, mirroring the psychological effects observed in actual prisons."
+      }
+    ]
+  },
+  {
+    "post_id": "Stanford_Prison_Experiment_DescentIntoRoles",
+    "article_id": "StanfordPrisonExperiment",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "The Stanford Prison Experiment: When Roles Become Reality",
+        "teaser": "As the simulation progressed, the lines between role-playing and reality blurred, leading to rapid psychological changes, escalating conflict, and profound distress among participants.",
+        "key_terms": [
+          {
+            "term": "Role-Playing",
+            "definition": "The act of adopting and performing the behaviors, attitudes, and expectations associated with a particular social role."
+          },
+          {
+            "term": "Power Dynamics",
+            "definition": "The interplay of power relationships between individuals or groups, influencing behavior and interactions within a system."
+          },
+          {
+            "term": "Situational Control",
+            "definition": "The influence of environmental and social factors on an individual's behavior, often overriding personal dispositions."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Prisoner Counts and Push-ups",
+        "image": "images/psych/Psych8.webp",
+        "caption": "From the first 'count' at 2:30 a.m., guards began to assert their authority. Initially, prisoners didn't take it seriously, but push-ups quickly became a common form of punishment for rule infractions or 'improper attitudes.' This seemingly minor disciplinary action, later linked to practices in Nazi concentration camps, served to establish the guards' dominance and the prisoners' subservience, setting a precedent for escalating control."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Three Prisoners starting Rebellion",
+        "image": "images/psych/Psych12.webp",
+        "caption": "On the second day, a rebellion erupted. Prisoners removed their caps, ripped off their numbers, and barricaded themselves in their cells, taunting the guards. The guards, feeling personally challenged, called in reinforcements and responded with force: using a fire extinguisher, stripping prisoners naked, removing beds, and placing ringleaders in solitary confinement. This swift, aggressive suppression solidified the guards' collective identity and their commitment to maintaining order, transforming the experiment into a real power struggle."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Prisoner in privilege cell",
+        "image": "images/psych/Psych11.webp",
+        "caption": "Following the rebellion, guards employed psychological tactics to break prisoner solidarity. They created a 'privilege cell,' offering special treatment (beds, uniforms, good food) to prisoners least involved in the uprising. This created suspicion and distrust among the prisoners, as they began to view each other as potential informers. This tactic, mirroring strategies used in real prisons, effectively dismantled any collective resistance and further isolated individuals, making them easier to control."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "8612 breaks down",
+        "image": "images/psych/Psych2.jpg",
+        "caption": "Less than 36 hours into the experiment, Prisoner #8612 suffered an acute emotional breakdown, marked by disorganized thinking, uncontrollable crying, and rage. Initially, researchers, including Zimbardo, suspected he was 'conning' them, demonstrating how quickly they had adopted the mindset of prison authorities. This incident was a stark warning sign that the simulation was having a profound and distressing impact, blurring the lines between the experimental role and the participants' true identities."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Superintendent at Police Station",
+        "image": "images/psych/Psych13.jpg",
+        "caption": "The blurring of reality extended to the researchers themselves. When a rumor of a mass escape plot surfaced, Zimbardo, acting as 'Superintendent,' became consumed with prison security. He placed an informer among the prisoners and even approached the Palo Alto Police Department to transfer his 'prisoners' to their jail. His anger at a colleague who questioned the 'independent variable' during this 'crisis' revealed how deeply he had internalized his role, prioritizing prison stability over scientific objectivity."
+      }
+    ]
+  },
+  {
+    "post_id": "Stanford_Prison_Experiment_UnravelingLegacy",
+    "article_id": "StanfordPrisonExperiment",
+    "pages": [
+      {
+        "page_type": "title_card",
+        "title": "The Stanford Prison Experiment: The Unraveling and Lasting Impact",
+        "teaser": "The experiment's rapid escalation of abuse and distress forced its premature termination, leaving a powerful legacy about the dangers of unchecked power and the fragility of identity within oppressive systems.",
+        "key_terms": [
+          {
+            "term": "Ethical Dilemma",
+            "definition": "A situation in which a difficult choice has to be made between two or more alternatives, especially ones that are equally undesirable or morally conflicting."
+          },
+          {
+            "term": "Systemic Abuse",
+            "definition": "Patterns of mistreatment or harm that are embedded within the structure, policies, or culture of an institution or system."
+          },
+          {
+            "term": "Bystander Effect",
+            "definition": "A social psychological phenomenon in which individuals are less likely to offer help to a victim when other people are present."
+          }
+        ]
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Priest, Prisoner on T.V.",
+        "image": "images/psych/Psych14.webp",
+        "caption": "A visit from a real Catholic prison chaplain further blurred the lines of reality. Half the prisoners responded with their numbers, not names, and the priest advised them to get a lawyer to 'get out.' Later, when a sick prisoner, #819, broke down, guards forced other prisoners to chant '819 is bad.' This chilling conformity, reminiscent of totalitarian rallies, showed how deeply the prisoners had internalized their roles and the system's labels, even turning on their own."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Parole Meeting",
+        "image": "images/psych/Psych5.jpg",
+        "caption": "The 'parole board' meeting revealed the prisoners' profound immersion. When offered parole in exchange for forfeiting their earnings, almost all agreed, yet docilely returned to their cells when told their requests would be 'considered.' They couldn't simply quit, believing only the 'correctional authority' could grant their release. Even the ex-con consultant, Carlo Prescott, adopted a harsh, authoritarian persona as head of the board, feeling sick at his own transformation, underscoring the power of the situation to shape behavior."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Prisoner 416 refusing food",
+        "image": "images/psych/Psych15.webp",
+        "caption": "Prisoner #416's hunger strike, a final act of defiance, exposed the complete breakdown of prisoner solidarity. When guards threatened to punish his cellmates and cancel visiting hours if he didn't eat, the other prisoners turned on #416, screaming at him to comply. They chose to leave him in solitary rather than give up their blankets, illustrating how the system had successfully pitted them against each other, eroding any sense of collective identity or resistance."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Encounter group",
+        "image": "images/psych/Psych17.jpg",
+        "caption": "The experiment, planned for two weeks, was terminated after just six days due to the escalating abuse and distress. Prisoners were suffering, withdrawing, and behaving pathologically, while some guards exhibited sadistic behavior, delighting in their power. Even 'good guards' felt helpless, never interfering with the cruel ones, highlighting the bystander effect within the system. The post-experiment encounter groups aimed to process the profound experiences and discuss the moral conflicts, emphasizing the ethical imperative to end the study."
+      },
+      {
+        "page_type": "content",
+        "figure_label": "Attica Headlines",
+        "image": "images/psych/Psych16.jpg",
+        "caption": "The Stanford Prison Experiment concluded on August 20, 1971, just weeks before the infamous Attica prison riot. The study's findings offered chilling insights into how total institutions can dehumanize individuals, turning them into objects and fostering helplessness. It revealed how easily ordinary people can adopt extreme roles, leading to systemic abuse. The experiment serves as a powerful, albeit controversial, reminder of the need to critically evaluate and reform institutions to promote human values rather than destroy them."
+      }
+    ]
+  }
+]

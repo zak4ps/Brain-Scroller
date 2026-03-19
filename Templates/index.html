@@ -214,7 +214,7 @@ document.querySelectorAll('.carousel').forEach(carousel => {
     const dots = carousel.parentElement.querySelectorAll('.dot');
 
     function updateCarousel(){
-        isTransitioning
+        isTransitioning = True
         carousel.scrollTo({
             left: pages[currentIndex].offsetLeft,
             behavior: 'smooth'
