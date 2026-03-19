@@ -102,6 +102,7 @@ body {
 .cat-geology { background: #5e3626; } 
 .cat-default { background: #2c3e50; }
 .cat-sports-analytics { background: #d35400;}
+.cat-psychology { background: #a64d79; }
 
 .title-card-content h1 { font-size: 28px; margin-bottom: 15px; }
 .teaser { font-style: italic; font-size: 18px; opacity: 0.9; margin-bottom: 25px; }
@@ -213,6 +214,7 @@ document.querySelectorAll('.carousel').forEach(carousel => {
     const dots = carousel.parentElement.querySelectorAll('.dot');
 
     function updateCarousel(){
+        isTransitioning
         carousel.scrollTo({
             left: pages[currentIndex].offsetLeft,
             behavior: 'smooth'
@@ -226,13 +228,18 @@ document.querySelectorAll('.carousel').forEach(carousel => {
                 dot.classList.remove('active');
             }
         });
+        setTimeout(() => {
+            isTransitioning = false;
+        }, 250); 
     }
 
     carousel.addEventListener('touchstart', e => { 
+        if(isTransitioning) return;
         startX = e.touches[0].clientX; 
     });
 
     carousel.addEventListener('touchend', e => {
+        if(isTransitioning) return;
         let endX = e.changedTouches[0].clientX;
         let diff = startX - endX;
 
