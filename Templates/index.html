@@ -207,6 +207,7 @@ body {
 document.querySelectorAll('.carousel').forEach(carousel => {
     let startX = 0;
     let currentIndex = 0;
+    let isTransitioning = false; // Flag to prevent multiple rapid swipes
     const pages = carousel.querySelectorAll('.page');
     const totalPages = pages.length;
     
@@ -214,7 +215,7 @@ document.querySelectorAll('.carousel').forEach(carousel => {
     const dots = carousel.parentElement.querySelectorAll('.dot');
 
     function updateCarousel(){
-        isTransitioning = True
+        isTransitioning = true
         carousel.scrollTo({
             left: pages[currentIndex].offsetLeft,
             behavior: 'smooth'
@@ -230,7 +231,7 @@ document.querySelectorAll('.carousel').forEach(carousel => {
         });
         setTimeout(() => {
             isTransitioning = false;
-        }, 250); 
+        }, 500); 
     }
 
     carousel.addEventListener('touchstart', e => { 
@@ -251,6 +252,17 @@ document.querySelectorAll('.carousel').forEach(carousel => {
         }
         
         updateCarousel();
+    });
+
+    carousel.addEventListener('scroll', () => {
+        if (isTransitioning) return;
+        let scrollIndex = Math.round(carousel.scrollLeft / carousel.clientWidth);
+        if (scrollIndex !== currentIndex) {
+            currentIndex = scrollIndex;
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
     });
 
     // Optional: Update dots if user uses mouse wheel or trackpad to scroll horizontally
