@@ -9,19 +9,34 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 # Load article metadata
 articles_path = os.path.join(BASE_DIR, "articles.json")
-with open(articles_path, encoding="utf-8-sig") as f:
-    ARTICLES = {a["article_id"]: a for a in json.load(f)}
+try:
+    with open(articles_path, encoding="utf-8-sig") as f:
+        ARTICLES = {a["article_id"]: a for a in json.load(f)}
+except Exception as e:
+    print(f"ERROR loading articles.json: {e}")
+    ARTICLES = {}
 
-# Load posts from separate files
+# Load posts
 POSTS = []
 post_files = ["nanotyrannus.json", "vaquita.json", "gravitational_waves.json", "sea_otters.json", "football.json"]
 for filename in post_files:
     full_path = os.path.join(BASE_DIR, "json", filename) 
-    if os.path.exists(full_path):
-        with open(full_path, encoding="utf-8-sig") as f:
-            POSTS.extend(json.load(f))
-    else:
-        print(f"Warning: File not found at {full_path}")
+    try:
+        if os.path.exists(full_path):
+            with open(full_path, encoding="utf-8-sig") as f:
+                POSTS.extend(json.load(f))
+        else:
+            print(f"CRITICAL: File missing at {full_path}")
+    except Exception as e:
+        print(f"ERROR loading {filename}: {e}")
+
+# ... (rest of your functions)
+
+# Move the enrichment inside a check
+if POSTS:
+    POSTS = attach_article_data(POSTS)
+else:
+    print("WARNING: No posts loaded. App may appear empty.")
 
 def attach_article_data(posts):
     enriched = []
