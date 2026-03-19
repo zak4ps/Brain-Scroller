@@ -1,10 +1,23 @@
-# Enhancements
-Add Supplemental Images - Most research papers are very content-heavy. Need to add logic that finds/requests extra images so as to properly explain captions.
-Connect live sports data - Using some API connect to sports data, creating posts of my favorite teams and automatically refreshing daily.
-Data Refresh - See sports data
-Use offline - change from locally hosted to web app/some other alternative to enable offline mode (and so I don't have to run it from the computer)
-Definitions - related to supplemental images, create additional posts with the supplemental images to define key terms (for example, what is phylogenic?)
-Further content - continue using processor.py to read new research papers and generate new posts.
+# Enhancements (by file)
+
+### app.py
+UI for content filtering (by article/category and eventually also educational vs entertainment)  
+Connect live sports data and automatically updating content - Using some API connect to sports data, creating posts of my favorite teams and automatically refreshing daily (overwrite previous day's post)  
+Create queuing process for posts  
+
+### book-processor.py
+Modify processor.py to take in entire textbooks and create chapter by chapter posts  
+
+### entertainment-generator.py
+Take in entertainment sources (Twitter API, news sites or other) and generate posts  
+
+### image-populator.py
+Add Images & Automate process. Ideally have AI search web for images based on caption. Alternative is to have AI generate images (need to test this)  
 
 # Bugs
-Horizonal swiping is too stiff, vertical is too fluid
+Corrupt SeaOtters png causing issues with scrolling for one post  
+Horizontal scrolling is too stiff
+
+# Long-term Reqs
+Manage website/app traffic and set procedures for content storage  
+CITE MY SOURCES
