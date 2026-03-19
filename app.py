@@ -18,7 +18,7 @@ except Exception as e:
 
 # Load posts
 POSTS = []
-post_files = ["nanotyrannus.json", "vaquita.json", "gravitational_waves.json", "sea_otters.json", "football.json"]
+post_files = ["json/nanotyrannus.json", "json/vaquita.json", "json/gravitational_waves.json", "json/sea_otters.json", "json/football.json", "json/psychology.json"]  # Add more as needed
 for filename in post_files:
     full_path = os.path.join(BASE_DIR, "json", filename) 
     try:

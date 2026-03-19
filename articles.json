@@ -33,5 +33,12 @@
       "source_pdf": "football.pdf",
       "type": "Educational",
       "category": "Sports Analytics"
-  }
+  },
+  {
+      "article_id": "StanfordPrisonExperiment",
+      "title": "Stanford Prison Experiment",
+      "source_pdf": "psychology.pdf",
+      "type": "Educational",
+      "category": "Psychology"
+    }
 ]
