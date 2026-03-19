@@ -62,8 +62,6 @@ else:
 
 def filter_posts(types, categories, articles):
     results = POSTS
-
-    # 1. Apply initial filters
     if types:
         results = [p for p in results if p["type"] in types]
     if categories:
@@ -71,7 +69,7 @@ def filter_posts(types, categories, articles):
     if articles:
         results = [p for p in results if p["article_id"] in articles]
 
-    # 2. Group posts by article_id (maintaining their relative order)
+    # Group by article_id
     grouped = {}
     for post in results:
         aid = post["article_id"]
@@ -79,18 +77,23 @@ def filter_posts(types, categories, articles):
             grouped[aid] = []
         grouped[aid].append(post)
 
-    # 3. Shuffle the ORDER of the groups themselves 
-    # (So one session starts with Physics, another starts with Dinosaurs)
+    # Shuffle the internal list of each group so even within a topic it's random
+    for aid in grouped:
+        random.shuffle(grouped[aid])
+
+    # Shuffle the order of the topics
     article_ids = list(grouped.keys())
     random.shuffle(article_ids)
 
-    # 4. Round Robin Interleaving
     interleaved_results = []
     max_posts = max([len(posts) for posts in grouped.values()]) if grouped else 0
 
+    # Round-robin interleaving
     for i in range(max_posts):
+        # On every new "round", shuffle the topic order again 
+        # so you don't always go Physics -> Dino -> Sports
+        random.shuffle(article_ids)
         for aid in article_ids:
-            # If this article still has a post at this index, add it
             if i < len(grouped[aid]):
                 interleaved_results.append(grouped[aid][i])
 
