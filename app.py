@@ -14,7 +14,8 @@ def get_latest_posts():
         "nanotyrannus.json", "vaquita.json", "gravitational_waves.json", 
         "sea_otters.json", "football.json", "psychology.json",
         "finished_ncaa.json", "scheduled_ncaa.json",
-        "finished_favorites.json", "scheduled_favorites.json"  # Added favorites
+        "finished_favorites.json", "scheduled_favorites.json",
+        "nutrition.json"  # Added favorites
     ]
     
     for filename in post_files:

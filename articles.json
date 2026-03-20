@@ -68,5 +68,12 @@
     "source_pdf": "Official NHL API",
     "type": "Sports",
     "category": "NHL"
-  } 
+  } ,
+  {
+    "article_id": "Lactic_Acid_Bacteria",
+    "title": "Lactic Acid Nutrition",
+    "source_pdf": "nutrition.pdf",
+    "type": "Educational",
+    "category": "Health"
+  }
 ]
