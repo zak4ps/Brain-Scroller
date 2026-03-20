@@ -2,11 +2,7 @@ import requests
 import json
 import os
 from datetime import datetime, timezone
-try:
-    from zoneinfo import ZoneInfo
-except ImportError:
-    # Fallback for older Python versions
-    from backports.zoneinfo import ZoneInfo
+from zoneinfo import ZoneInfo
 
 # --- CONFIGURATION ---
 ANGELS_URL = "https://statsapi.mlb.com/api/v1/schedule?sportId=1&teamId=108&hydrate=team,score"

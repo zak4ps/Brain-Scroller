@@ -27,29 +27,23 @@ def fetch_ncaa_by_date(target_date):
         return []
 
 def format_ncaa_as_post(game_data):
-    """Maps the NCAA API response to your standard JSON post format"""
     home = game_data['teams']['home']
     away = game_data['teams']['away']
     status_short = game_data['status']['short']
     
-    h_score = game_data.get('scores', {}).get('home', {}).get('total')
-    a_score = game_data.get('scores', {}).get('away', {}).get('total')
+    # EXPLICIT MAPPING: Ensure home stays with home
+    h_score = game_data.get('scores', {}).get('home', {}).get('total', 0)
+    a_score = game_data.get('scores', {}).get('away', {}).get('total', 0)
 
-    # Determine display strings based on game state
     if status_short in FINAL_STATUSES:
-        time_disp, title, score_disp = "Final", "Final Result", f"{h_score} - {a_score}"
+        # Match the order of your HTML (Away vs Home or Home vs Away)
+        # If your HTML shows Away on Left and Home on Right:
+        score_disp = f"{a_score} - {h_score}" 
+        time_disp, title = "Final", "Final Result"
     elif status_short in LIVE_STATUSES:
-        time_disp, title, score_disp = game_data.get('time', 'Live'), "Live Now", f"{h_score} - {a_score}"
+        score_disp = f"{a_score} - {h_score}"
+        time_disp, title = game_data.get('time', 'Live'), "Live Now"
     else:
-        # For upcoming games, format the time from the 'date' field
-        try:
-            dt = datetime.fromisoformat(game_data['date'].replace('Z', '+00:00'))
-            # Note: API provides local time based on 'timezone' param in fetch
-            time_disp = dt.strftime('%I:%M %p')
-            title = f"Upcoming - {dt.strftime('%b %d')}"
-        except:
-            time_disp = game_data.get('time', 'TBD')
-            title = "Upcoming"
         score_disp = "vs"
 
     return {
@@ -57,7 +51,7 @@ def format_ncaa_as_post(game_data):
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": f"{home['name']} vs {away['name']}",
+        "theme": f"{away['name']} vs {home['name']}",
         "pages": [{
             "title": title,
             "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg", # Clean fallback logo

@@ -4,7 +4,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "Ohio State vs TCU",
+        "theme": "TCU vs Ohio State",
         "pages": [
             {
                 "title": "Final Result",
@@ -13,7 +13,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/2058.png",
                 "away_name": "TCU",
                 "away_logo": "https://media.api-sports.io/basketball/teams/202.png",
-                "score_line": "64 - 66",
+                "score_line": "66 - 64",
                 "status_display": "Final",
                 "status_code": "FT"
             }
@@ -24,7 +24,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "Nebraska vs Troy",
+        "theme": "Troy vs Nebraska",
         "pages": [
             {
                 "title": "Final Result",
@@ -33,7 +33,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/195.png",
                 "away_name": "Troy",
                 "away_logo": "https://media.api-sports.io/basketball/teams/2157.png",
-                "score_line": "76 - 47",
+                "score_line": "47 - 76",
                 "status_display": "Final",
                 "status_code": "FT"
             }
@@ -44,7 +44,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "Louisville vs South Florida",
+        "theme": "South Florida vs Louisville",
         "pages": [
             {
                 "title": "Final Result",
@@ -53,7 +53,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/1977.png",
                 "away_name": "South Florida",
                 "away_logo": "https://media.api-sports.io/basketball/teams/218.png",
-                "score_line": "83 - 79",
+                "score_line": "79 - 83",
                 "status_display": "Final",
                 "status_code": "FT"
             }
@@ -64,7 +64,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "Wisconsin vs High Point",
+        "theme": "High Point vs Wisconsin",
         "pages": [
             {
                 "title": "Final Result",
@@ -73,7 +73,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/2214.png",
                 "away_name": "High Point",
                 "away_logo": "https://media.api-sports.io/basketball/teams/1934.png",
-                "score_line": "82 - 83",
+                "score_line": "83 - 82",
                 "status_display": "Final",
                 "status_code": "FT"
             }
@@ -84,7 +84,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "Duke vs Siena",
+        "theme": "Siena vs Duke",
         "pages": [
             {
                 "title": "Final Result",
@@ -93,7 +93,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/1890.png",
                 "away_name": "Siena",
                 "away_logo": "https://media.api-sports.io/basketball/teams/1570.png",
-                "score_line": "71 - 65",
+                "score_line": "65 - 71",
                 "status_display": "Final",
                 "status_code": "FT"
             }
@@ -104,7 +104,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "Vanderbilt vs McNeese State",
+        "theme": "McNeese State vs Vanderbilt",
         "pages": [
             {
                 "title": "Final Result",
@@ -113,7 +113,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/2185.png",
                 "away_name": "McNeese State",
                 "away_logo": "https://media.api-sports.io/basketball/teams/1990.png",
-                "score_line": "78 - 68",
+                "score_line": "68 - 78",
                 "status_display": "Final",
                 "status_code": "FT"
             }
@@ -124,7 +124,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "Michigan State vs North Dakota St",
+        "theme": "North Dakota St vs Michigan State",
         "pages": [
             {
                 "title": "Final Result",
@@ -133,7 +133,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/1995.png",
                 "away_name": "North Dakota St",
                 "away_logo": "https://media.api-sports.io/basketball/teams/2042.png",
-                "score_line": "92 - 67",
+                "score_line": "67 - 92",
                 "status_display": "Final",
                 "status_code": "FT"
             }
@@ -144,7 +144,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "Arkansas vs Hawaii",
+        "theme": "Hawaii vs Arkansas",
         "pages": [
             {
                 "title": "Final Result",
@@ -153,7 +153,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/177.png",
                 "away_name": "Hawaii",
                 "away_logo": "https://media.api-sports.io/basketball/teams/1933.png",
-                "score_line": "97 - 78",
+                "score_line": "78 - 97",
                 "status_display": "Final",
                 "status_code": "FT"
             }
@@ -164,7 +164,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "North Carolina vs VCU Rams",
+        "theme": "VCU Rams vs North Carolina",
         "pages": [
             {
                 "title": "Final Result",
@@ -173,7 +173,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/2039.png",
                 "away_name": "VCU Rams",
                 "away_logo": "https://media.api-sports.io/basketball/teams/2182.png",
-                "score_line": "78 - 82",
+                "score_line": "82 - 78",
                 "status_display": "Final",
                 "status_code": "AOT"
             }
@@ -184,7 +184,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "Michigan vs Howard",
+        "theme": "Howard vs Michigan",
         "pages": [
             {
                 "title": "Final Result",
@@ -193,7 +193,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/1994.png",
                 "away_name": "Howard",
                 "away_logo": "https://media.api-sports.io/basketball/teams/215.png",
-                "score_line": "101 - 80",
+                "score_line": "80 - 101",
                 "status_display": "Final",
                 "status_code": "FT"
             }
@@ -204,7 +204,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "Brigham Young vs Texas",
+        "theme": "Texas vs Brigham Young",
         "pages": [
             {
                 "title": "Final Result",
@@ -213,7 +213,7 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/1841.png",
                 "away_name": "Texas",
                 "away_logo": "https://media.api-sports.io/basketball/teams/203.png",
-                "score_line": "71 - 79",
+                "score_line": "79 - 71",
                 "status_display": "Final",
                 "status_code": "FT"
             }
@@ -224,7 +224,7 @@
         "article_id": "march_madness_2026",
         "type": "Sports",
         "category": "NCAA",
-        "theme": "St. Marys (CA) vs Texas A&M",
+        "theme": "Texas A&M vs St. Marys (CA)",
         "pages": [
             {
                 "title": "Final Result",
@@ -233,7 +233,27 @@
                 "home_logo": "https://media.api-sports.io/basketball/teams/2130.png",
                 "away_name": "Texas A&M",
                 "away_logo": "https://media.api-sports.io/basketball/teams/2144.png",
-                "score_line": "50 - 63",
+                "score_line": "63 - 50",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496090",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Penn vs Illinois",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Illinois",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1944.png",
+                "away_name": "Penn",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2072.png",
+                "score_line": "70 - 105",
                 "status_display": "Final",
                 "status_code": "FT"
             }

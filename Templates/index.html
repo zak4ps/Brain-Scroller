@@ -166,10 +166,6 @@ body {
     padding: 10px 15px; 
     color: #ffffff; 
 }
-
-/* NCAA Specific Theme */
-.cat-ncaa { background: linear_gradient(135deg, #003366 0%, #001a33 100%); }
-
 /* Sports Score Layout */
 .sports-card {
     text-align: center;
@@ -193,6 +189,19 @@ body {
     margin: 0 auto 15px auto;
     display: block;
     filter: drop-shadow(0 0 5px rgba(255,255,255,0.2));
+}
+
+.league-logo-fallback {
+    display: none; /* Hidden by default */
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 /* Team Logo Styling */
@@ -328,10 +337,22 @@ body {
             {% if post.type == "Sports" %}
 <div class="title-card-content cat-{{ post.category | lower }}">
     <div class="sports-card">
-    {# League Logo at Top #}
-    {% if page.league_logo %}
-        <img src="{{ page.league_logo }}" class="league-logo" style="width:40px; margin-bottom:10px;">
-    {% endif %}
+    {# League Logo or Text Fallback #}
+    <div style="display: flex; justify-content: center;">
+        {% if page.league_logo %}
+            <img src="{{ page.league_logo }}" 
+                 class="league-logo" 
+                 id="logo-img-{{ loop.index }}"
+                 style="width:40px; margin-bottom:10px;"
+                 onerror="this.style.display='none'; document.getElementById('logo-text-{{ loop.index }}').style.display='inline-block';">
+        {% endif %}
+        
+        <span class="league-logo-fallback" 
+              id="logo-text-{{ loop.index }}"
+              {% if not page.league_logo %}style="display: inline-block;"{% endif %}>
+            {{ post.category }}
+        </span>
+    </div>
 
     <div class="status-badge 
         {% if 'Final' in page.title %}status-final
