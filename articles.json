@@ -40,5 +40,33 @@
       "source_pdf": "psychology.pdf",
       "type": "Educational",
       "category": "Psychology"
-    }
+    },
+   {
+    "article_id": "march_madness_2026",
+    "title": "March Madness 2026",
+    "source_pdf": "API-Sports",
+    "type": "Sports",
+    "category": "NCAA"
+  },
+  {
+    "article_id": "march_madness_2026",
+    "title": "March Madness 2026",
+    "source_pdf": "API-Sports",
+    "type": "Sports",
+    "category": "NCAA"
+  },
+  {
+    "article_id": "angels_baseball",
+    "title": "LA Angels Baseball",
+    "source_pdf": "Official MLB API",
+    "type": "Sports",
+    "category": "MLB"
+  },
+  {
+    "article_id": "ducks_hockey",
+    "title": "Anaheim Ducks Hockey",
+    "source_pdf": "Official NHL API",
+    "type": "Sports",
+    "category": "NHL"
+  } 
 ]

@@ -1,0 +1,242 @@
+﻿[
+    {
+        "post_id": "sp_ncaa_496080",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Ohio State vs TCU",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Ohio State",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2058.png",
+                "away_name": "TCU",
+                "away_logo": "https://media.api-sports.io/basketball/teams/202.png",
+                "score_line": "64 - 66",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496081",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Nebraska vs Troy",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Nebraska",
+                "home_logo": "https://media.api-sports.io/basketball/teams/195.png",
+                "away_name": "Troy",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2157.png",
+                "score_line": "76 - 47",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496082",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Louisville vs South Florida",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Louisville",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1977.png",
+                "away_name": "South Florida",
+                "away_logo": "https://media.api-sports.io/basketball/teams/218.png",
+                "score_line": "83 - 79",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496083",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Wisconsin vs High Point",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Wisconsin",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2214.png",
+                "away_name": "High Point",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1934.png",
+                "score_line": "82 - 83",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496084",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Duke vs Siena",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Duke",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1890.png",
+                "away_name": "Siena",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1570.png",
+                "score_line": "71 - 65",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496085",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Vanderbilt vs McNeese State",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Vanderbilt",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2185.png",
+                "away_name": "McNeese State",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1990.png",
+                "score_line": "78 - 68",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496086",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Michigan State vs North Dakota St",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Michigan State",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1995.png",
+                "away_name": "North Dakota St",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2042.png",
+                "score_line": "92 - 67",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496087",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Arkansas vs Hawaii",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Arkansas",
+                "home_logo": "https://media.api-sports.io/basketball/teams/177.png",
+                "away_name": "Hawaii",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1933.png",
+                "score_line": "97 - 78",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496088",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "North Carolina vs VCU Rams",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "North Carolina",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2039.png",
+                "away_name": "VCU Rams",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2182.png",
+                "score_line": "78 - 82",
+                "status_display": "Final",
+                "status_code": "AOT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496253",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Michigan vs Howard",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Michigan",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1994.png",
+                "away_name": "Howard",
+                "away_logo": "https://media.api-sports.io/basketball/teams/215.png",
+                "score_line": "101 - 80",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496254",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Brigham Young vs Texas",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "Brigham Young",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1841.png",
+                "away_name": "Texas",
+                "away_logo": "https://media.api-sports.io/basketball/teams/203.png",
+                "score_line": "71 - 79",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496089",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "St. Marys (CA) vs Texas A&M",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "home_name": "St. Marys (CA)",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2130.png",
+                "away_name": "Texas A&M",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2144.png",
+                "score_line": "50 - 63",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    }
+]

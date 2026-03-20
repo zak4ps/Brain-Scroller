@@ -96,13 +96,29 @@ body {
     justify-content: center;
 }
 
+.cat-default { background: #2c3e50; }
 .cat-dinosaurs { background: #3d4d1d; } 
 .cat-marine-biology { background: #1e5d8a; } 
 .cat-physics { background: #3a0063; } 
 .cat-geology { background: #5e3626; } 
-.cat-default { background: #2c3e50; }
 .cat-sports-analytics { background: #d35400;}
 .cat-psychology { background: #a64d79; }
+/* Mighty Ducks Throwback: Eggplant and Teal */
+.cat-nhl { 
+    background: linear-gradient(135deg, #552582 0%, #007889 100%); 
+    border-bottom: 4px solid #C4CED4; /* Silver accent line like the old jerseys */
+}
+
+/* Angels: Red and Navy Blue */
+.cat-mlb { 
+    background: linear-gradient(135deg, #BA0021 0%, #003263 100%); 
+    border-bottom: 4px solid #862633; /* Deep red accent */
+}
+
+/* NCAA: Classic Navy and Slate */
+.cat-ncaa { 
+    background: linear-gradient(135deg, #003366 0%, #001a33 100%); 
+}
 
 .title-card-content h1 { font-size: 28px; margin-bottom: 15px; }
 .teaser { font-style: italic; font-size: 18px; opacity: 0.9; margin-bottom: 25px; }
@@ -150,23 +166,199 @@ body {
     padding: 10px 15px; 
     color: #ffffff; 
 }
+
+/* NCAA Specific Theme */
+.cat-ncaa { background: linear_gradient(135deg, #003366 0%, #001a33 100%); }
+
+/* Sports Score Layout */
+.sports-card {
+    text-align: center;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+.score-line {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+/* League Logo at the top center */
+.league-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin: 0 auto 15px auto;
+    display: block;
+    filter: drop-shadow(0 0 5px rgba(255,255,255,0.2));
+}
+
+/* Team Logo Styling */
+.team-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.team-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.vs-divider {
+    font-size: 14px;
+    opacity: 0.5;
+    font-weight: normal;
+}
+.team-names {
+    font-size: 18px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+.status-badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background: #e74c3c; /* Red for live */
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.status-final { background: #7f8c8d; }
+.status-scheduled { background: #2980b9; }
+
+.scoreboard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.team-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.team-column span {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    height: 34px; /* Keeps names aligned if one wraps */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.scoreboard-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    /* This fix ensures images load even if container is small */
+    display: block; 
+}
+
+.score-divider {
+    font-size: 32px;
+    font-weight: 800;
+    padding: 0 15px;
+    color: #f1c40f; /* Gold accent for the score */
+}
+
+/* Floating Filter Button */
+.filter-toggle {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: #f1c40f;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    z-index: 1000;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.filter-toggle:active {
+    transform: scale(0.9);
+}
+
+.filter-toggle.active {
+    background: #ffffff;
+    content: "🎓";
+}
+
+/* Hide class for filtering */
+.hidden-post {
+    display: none !important;
+}
+
 </style>
 </head>
 
 <body>
 <div class="feed">
 {% for post in posts %}
-<div class="post">
+<div class="post" data-type="{{post.type}}">
     <div class="indicator-container">
         {% for page in post.pages %}
             <div class="dot {% if loop.first %}active{% endif %}"></div>
         {% endfor %}
     </div>
-
+    <div class="filter-toggle" id="eduFilter" onclick="toggleEduMode()" title="Toggle Educational Mode">
+    📚
+    </div>
     <div class="carousel">
     {% for page in post.pages %}
         <div class="page">
-            {% if page.page_type == "title_card" %}
+            {% if post.type == "Sports" %}
+<div class="title-card-content cat-{{ post.category | lower }}">
+    <div class="sports-card">
+    {# League Logo at Top #}
+    {% if page.league_logo %}
+        <img src="{{ page.league_logo }}" class="league-logo" style="width:40px; margin-bottom:10px;">
+    {% endif %}
+
+    <div class="status-badge 
+        {% if 'Final' in page.title %}status-final
+        {% elif 'Upcoming' in page.title %}status-scheduled{% endif %}">
+        {{ page.status_display }}
+    </div>
+
+    <div class="scoreboard-container">
+        <div class="team-column">
+            <span>{{ page.away_name }}</span>
+            <img src="{{ page.away_logo }}" class="scoreboard-logo" onerror="this.src='https://via.placeholder.com/60?text=Team'">
+        </div>
+
+        <div class="score-divider">
+            {{ page.score_line }}
+        </div>
+
+        <div class="team-column">
+            <span>{{ page.home_name }}</span>
+            <img src="{{ page.home_logo }}" class="scoreboard-logo" onerror="this.src='https://via.placeholder.com/60?text=Team'">
+        </div>
+    </div>
+
+    <p style="font-size: 12px; opacity: 0.6; margin-top: 10px;">{{ page.title }}</p>
+</div>
+</div>    
+            {% elif page.page_type == "title_card" %}
                 <div class="title-card-content cat-{{ post.category | lower | replace(' ', '-') }}">
                     <h1>{{ page.title }}</h1>
                     <p class="teaser">{{ page.teaser }}</p>
@@ -204,6 +396,36 @@ body {
 </div>
 
 <script>
+
+let eduModeActive = false;
+
+function toggleEduMode() {
+    eduModeActive = !eduModeActive;
+    const btn = document.getElementById('eduFilter');
+    const posts = document.querySelectorAll('.post');
+
+    if (eduModeActive) {
+        btn.classList.add('active');
+        btn.innerHTML = "🎓"; // Change icon when active
+        
+        posts.forEach(post => {
+            if (post.getAttribute('data-type') !== "Educational") {
+                post.classList.add('hidden-post');
+            }
+        });
+    } else {
+        btn.classList.remove('active');
+        btn.innerHTML = "📚";
+        
+        posts.forEach(post => {
+            post.classList.remove('hidden-post');
+        });
+    }
+    
+    // Reset scroll to top of feed when filtering
+    document.querySelector('.feed').scrollTop = 0;
+}
+
 document.querySelectorAll('.carousel').forEach(carousel => {
     let startX = 0;
     let currentIndex = 0;

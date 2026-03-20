@@ -1,0 +1,42 @@
+﻿[
+    {
+        "post_id": "fav_mlb_831822",
+        "article_id": "angels_baseball",
+        "type": "Sports",
+        "category": "MLB",
+        "theme": "Kansas City Royals vs Los Angeles Angels",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 19",
+                "league_logo": "https://www.mlbstatic.com/team-logos/league-lgo/1.svg",
+                "home_name": "Kansas City Royals",
+                "home_logo": "https://www.mlbstatic.com/team-logos/118.svg",
+                "away_name": "Los Angeles Angels",
+                "away_logo": "https://www.mlbstatic.com/team-logos/108.svg",
+                "score_line": "vs",
+                "status_display": "06:05 PM",
+                "status_code": "SCH"
+            }
+        ]
+    },
+    {
+        "post_id": "fav_nhl_2025021098",
+        "article_id": "ducks_hockey",
+        "type": "Sports",
+        "category": "NHL",
+        "theme": "Mammoth vs Ducks",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://assets.nhle.com/logos/nhl/svg/NHL_light.svg",
+                "home_name": "Mammoth",
+                "home_logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
+                "away_name": "Ducks",
+                "away_logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "score_line": "vs",
+                "status_display": "07:00 PM",
+                "status_code": "SCH"
+            }
+        ]
+    }
+]

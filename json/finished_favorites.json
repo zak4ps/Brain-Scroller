@@ -1,0 +1,22 @@
+﻿[
+    {
+        "post_id": "fav_nhl_2025021082",
+        "article_id": "ducks_hockey",
+        "type": "Sports",
+        "category": "NHL",
+        "theme": "Ducks vs Flyers",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://assets.nhle.com/logos/nhl/svg/NHL_light.svg",
+                "home_name": "Ducks",
+                "home_logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "away_name": "Flyers",
+                "away_logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+                "score_line": "2 - 3",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    }
+]
