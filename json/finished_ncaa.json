@@ -280,6 +280,26 @@
         ]
     },
     {
+        "post_id": "sp_ncaa_496092",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Kennesaw State vs Gonzaga",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Gonzaga",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1927.png",
+                "away_name": "Kennesaw State",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1963.png",
+                "score_line": "64 - 73",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
         "post_id": "sp_ncaa_496093",
         "article_id": "march_madness_2026",
         "type": "Sports",
