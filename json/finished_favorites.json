@@ -1,5 +1,25 @@
 ﻿[
     {
+        "post_id": "fav_mlb_831910",
+        "article_id": "angels_baseball",
+        "type": "Sports",
+        "category": "MLB",
+        "theme": "Los Angeles Angels vs Chicago White Sox",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://www.mlbstatic.com/team-logos/league-lgo/1.svg",
+                "home_name": "Los Angeles Angels",
+                "home_logo": "https://www.mlbstatic.com/team-logos/108.svg",
+                "away_name": "Chicago White Sox",
+                "away_logo": "https://www.mlbstatic.com/team-logos/145.svg",
+                "score_line": "4 - 3",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
         "post_id": "fav_nhl_2025021082",
         "article_id": "ducks_hockey",
         "type": "Sports",

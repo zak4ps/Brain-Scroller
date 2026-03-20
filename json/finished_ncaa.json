@@ -1,5 +1,165 @@
 ﻿[
     {
+        "post_id": "sp_ncaa_496094",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Santa Clara vs Kentucky",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Kentucky",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1964.png",
+                "away_name": "Santa Clara",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2111.png",
+                "score_line": "84 - 89",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496095",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Akron vs Texas Tech",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Texas Tech",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2146.png",
+                "away_name": "Akron",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1805.png",
+                "score_line": "71 - 91",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496096",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "LIU Sharks vs Arizona",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Arizona",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1815.png",
+                "away_name": "LIU Sharks",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1966.png",
+                "score_line": "58 - 92",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496097",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Wright State vs Virginia",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Virginia",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2189.png",
+                "away_name": "Wright State",
+                "away_logo": "https://media.api-sports.io/basketball/teams/206.png",
+                "score_line": "73 - 82",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496098",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Tennessee State vs Iowa State",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Iowa State",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1951.png",
+                "away_name": "Tennessee State",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2142.png",
+                "score_line": "74 - 108",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496099",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Hofstra vs Alabama",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Alabama",
+                "home_logo": "https://media.api-sports.io/basketball/teams/176.png",
+                "away_name": "Hofstra",
+                "away_logo": "https://media.api-sports.io/basketball/teams/188.png",
+                "score_line": "70 - 90",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496100",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Utah State vs Villanova",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Villanova",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2188.png",
+                "away_name": "Utah State",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2180.png",
+                "score_line": "86 - 76",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496255",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Miami (Ohio) vs Tennessee",
+        "pages": [
+            {
+                "title": "Final Result",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Tennessee",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2141.png",
+                "away_name": "Miami (Ohio)",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1495.png",
+                "score_line": "56 - 78",
+                "status_display": "Final",
+                "status_code": "FT"
+            }
+        ]
+    },
+    {
         "post_id": "sp_ncaa_496080",
         "article_id": "march_madness_2026",
         "type": "Sports",
