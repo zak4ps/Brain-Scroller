@@ -60,13 +60,15 @@ def filter_and_sort(posts, types, categories, articles):
     if articles:
         results = [p for p in results if p["article_id"] in articles]
 
-    # 1. TOP PRIORITY: Scheduled Favorites (Angels/Ducks upcoming)
+    # NEW LOGIC: If filtering for a specific article, keep them in order
+    if articles and len(articles) == 1:
+        # Assuming posts in the JSON are already in reading order
+        return results
+
+    # --- Existing Interleaving Logic for General Feed ---
     fav_scheduled = [p for p in results if p.get("source_file") == "scheduled_favorites.json"]
-    
-    # 2. SECOND PRIORITY: Scheduled NCAA (March Madness upcoming)
     ncaa_scheduled = [p for p in results if p.get("source_file") == "scheduled_ncaa.json"]
 
-    # Sorting helper for time
     def get_start_time(post):
         time_str = post.get("pages", [{}])[0].get("status_display", "23:59")
         try:
@@ -77,18 +79,11 @@ def filter_and_sort(posts, types, categories, articles):
         except:
             return datetime.strptime("23:59", "%H:%M").time()
 
-    fav_scheduled.sort(key=get_start_time)
-    ncaa_scheduled.sort(key=get_start_time)
-
-    # 3. POOL: Everything else (Including finished favorites)
     standard_results = [p for p in results if p.get("source_file") not in ["scheduled_favorites.json", "scheduled_ncaa.json"]]
 
-    # Interleave logic
     grouped = {}
     for post in standard_results:
         aid = post["article_id"]
-        # Boost finished favorites so they appear earlier in the shuffle
-        is_fav_finished = post.get("source_file") == "finished_favorites.json"
         grouped.setdefault(aid, []).append(post)
 
     article_ids = list(grouped.keys())
@@ -118,20 +113,23 @@ def index():
     raw_posts = get_latest_posts()
     enriched_posts = attach_article_data(raw_posts, articles_metadata)
 
-    # 3. Filter and Sort (Priority logic is in here)
     types = request.args.getlist("type")
     categories = request.args.getlist("category")
-    articles = request.args.getlist("article")
+    selected_articles = request.args.getlist("article") # Renamed for clarity
     
-    final_posts = filter_and_sort(enriched_posts, types, categories, articles)
+    # Check if we are currently filtering by a specific article
+    is_filtered = len(selected_articles) > 0
+
+    final_posts = filter_and_sort(enriched_posts, types, categories, selected_articles)
 
     return render_template(
         "index.html",
         posts=final_posts,
+        is_filtered=is_filtered, # Pass this to the frontend
         all_types=sorted({a["type"] for a in articles_metadata.values()}),
         all_categories=sorted({a["category"] for a in articles_metadata.values()}),
         all_articles=sorted({a["article_id"] for a in articles_metadata.values()})
-    )
+    ) 
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))

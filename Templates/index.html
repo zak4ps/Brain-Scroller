@@ -316,6 +316,44 @@ body {
     display: none !important;
 }
 
+/* Bottom Left Article Filter Icon */
+.article-filter-link {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    z-index: 30;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: background 0.2s;
+}
+
+.article-filter-link:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.article-filter-link.active-filter {
+    background: #e74c3c; /* Reddish tone to indicate 'Close' */
+    border-color: #c0392b;
+    font-weight: bold;
+}
+
+/* Ensure the link is easy to tap on mobile */
+.article-filter-link {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
 </style>
 </head>
 
@@ -323,6 +361,15 @@ body {
 <div class="feed">
 {% for post in posts %}
 <div class="post" data-type="{{post.type}}">
+    {% if is_filtered %}
+    <a href="/" class="article-filter-link active-filter" title="Back to Feed">
+        ✕
+    </a>
+{% else %}
+    <a href="/?article={{ post.article_id }}" class="article-filter-link" title="Read full article">
+        🔗
+    </a>
+{% endif %}
     <div class="indicator-container">
         {% for page in post.pages %}
             <div class="dot {% if loop.first %}active{% endif %}"></div>

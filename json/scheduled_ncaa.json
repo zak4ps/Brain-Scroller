@@ -1,1 +1,322 @@
-﻿[]
+﻿[
+    {
+        "post_id": "sp_ncaa_496094",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Santa Clara vs Kentucky",
+        "pages": [
+            {
+                "title": "Live Now",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Kentucky",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1964.png",
+                "away_name": "Santa Clara",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2111.png",
+                "score_line": "31 - 29",
+                "status_display": "Q2",
+                "status_code": "Q2"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496095",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Akron vs Texas Tech",
+        "pages": [
+            {
+                "title": "Live Now",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Texas Tech",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2146.png",
+                "away_name": "Akron",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1805.png",
+                "score_line": "25 - 37",
+                "status_display": "Q1",
+                "status_code": "Q1"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496096",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "LIU Sharks vs Arizona",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Arizona",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1815.png",
+                "away_name": "LIU Sharks",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1966.png",
+                "score_line": "vs",
+                "status_display": "10:35 AM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496097",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Wright State vs Virginia",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Virginia",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2189.png",
+                "away_name": "Wright State",
+                "away_logo": "https://media.api-sports.io/basketball/teams/206.png",
+                "score_line": "vs",
+                "status_display": "10:50 AM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496098",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Tennessee State vs Iowa State",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Iowa State",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1951.png",
+                "away_name": "Tennessee State",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2142.png",
+                "score_line": "vs",
+                "status_display": "11:50 AM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496099",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Hofstra vs Alabama",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Alabama",
+                "home_logo": "https://media.api-sports.io/basketball/teams/176.png",
+                "away_name": "Hofstra",
+                "away_logo": "https://media.api-sports.io/basketball/teams/188.png",
+                "score_line": "vs",
+                "status_display": "12:15 PM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496100",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Utah State vs Villanova",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Villanova",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2188.png",
+                "away_name": "Utah State",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2180.png",
+                "score_line": "vs",
+                "status_display": "01:10 PM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496255",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Miami (Ohio) vs Tennessee",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Tennessee",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2141.png",
+                "away_name": "Miami (Ohio)",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1495.png",
+                "score_line": "vs",
+                "status_display": "01:25 PM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496101",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Iowa vs Clemson",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Clemson",
+                "home_logo": "https://media.api-sports.io/basketball/teams/180.png",
+                "away_name": "Iowa",
+                "away_logo": "https://media.api-sports.io/basketball/teams/1950.png",
+                "score_line": "vs",
+                "status_display": "03:50 PM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496102",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Northern Iowa vs St. John's (N.Y.)",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "St. John's (N.Y.)",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2127.png",
+                "away_name": "Northern Iowa",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2049.png",
+                "score_line": "vs",
+                "status_display": "04:10 PM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496103",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "UCF Knights vs UCLA",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "UCLA",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2166.png",
+                "away_name": "UCF Knights",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2165.png",
+                "score_line": "vs",
+                "status_display": "04:25 PM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496104",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Queens Royals vs Purdue",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Purdue",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2085.png",
+                "away_name": "Queens Royals",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2430.png",
+                "score_line": "vs",
+                "status_display": "04:35 PM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496256",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Prairie View A&M vs Florida",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Florida",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1909.png",
+                "away_name": "Prairie View A&M",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2083.png",
+                "score_line": "vs",
+                "status_display": "06:25 PM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496105",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "California Baptist vs Kansas",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Kansas",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1959.png",
+                "away_name": "California Baptist",
+                "away_logo": "https://media.api-sports.io/basketball/teams/210.png",
+                "score_line": "vs",
+                "status_display": "06:45 PM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496106",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Furman vs UConn",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "UConn",
+                "home_logo": "https://media.api-sports.io/basketball/teams/2179.png",
+                "away_name": "Furman",
+                "away_logo": "https://media.api-sports.io/basketball/teams/185.png",
+                "score_line": "vs",
+                "status_display": "07:00 PM",
+                "status_code": "NS"
+            }
+        ]
+    },
+    {
+        "post_id": "sp_ncaa_496107",
+        "article_id": "march_madness_2026",
+        "type": "Sports",
+        "category": "NCAA",
+        "theme": "Missouri vs Miami (FL)",
+        "pages": [
+            {
+                "title": "Upcoming - Mar 20",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
+                "home_name": "Miami (FL)",
+                "home_logo": "https://media.api-sports.io/basketball/teams/1993.png",
+                "away_name": "Missouri",
+                "away_logo": "https://media.api-sports.io/basketball/teams/2006.png",
+                "score_line": "vs",
+                "status_display": "07:10 PM",
+                "status_code": "NS"
+            }
+        ]
+    }
+]

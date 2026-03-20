@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # --- CONFIGURATION ---
 API_KEY = "48941025dd178f7edcbc9ba6cd6b2e64"
@@ -42,7 +42,7 @@ def format_ncaa_as_post(game_data):
         time_disp, title = "Final", "Final Result"
     elif status_short in LIVE_STATUSES:
         score_disp = f"{a_score} - {h_score}"
-        time_disp, title = game_data.get('time', 'Live'), "Live Now"
+        time_disp, title = status_short, "Live Now"
     else:
         # For upcoming games, format the time from the 'date' field
         try:
@@ -84,8 +84,12 @@ def save_to_json(posts, filename):
 
 def run_pipeline():
     # Hardcoded dates for the 2026 tournament cycle
-    today_str = '2026-03-19'
-    yesterday_str = '2026-03-18'
+    today = datetime.now()
+    today_str = today.strftime('%Y-%m-%d')
+
+# Calculate yesterday's date
+    yesterday = today - timedelta(days=1)
+    yesterday_str = yesterday.strftime('%Y-%m-%d')
     
     # Fetch and combine
     raw_games = fetch_ncaa_by_date(today_str) + fetch_ncaa_by_date(yesterday_str)
