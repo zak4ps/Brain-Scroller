@@ -1,25 +1,5 @@
 ﻿[
     {
-        "post_id": "sp_ncaa_496091",
-        "article_id": "march_madness_2026",
-        "type": "Sports",
-        "category": "NCAA",
-        "theme": "St. Louis Billikens vs Georgia",
-        "pages": [
-            {
-                "title": "Live Now",
-                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
-                "home_name": "Georgia",
-                "home_logo": "https://media.api-sports.io/basketball/teams/1924.png",
-                "away_name": "St. Louis Billikens",
-                "away_logo": "https://media.api-sports.io/basketball/teams/2128.png",
-                "score_line": "97 - 59",
-                "status_display": "18:45",
-                "status_code": "Q2"
-            }
-        ]
-    },
-    {
         "post_id": "sp_ncaa_496092",
         "article_id": "march_madness_2026",
         "type": "Sports",
@@ -28,33 +8,13 @@
         "pages": [
             {
                 "title": "Live Now",
-                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
+                "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png",
                 "home_name": "Gonzaga",
                 "home_logo": "https://media.api-sports.io/basketball/teams/1927.png",
                 "away_name": "Kennesaw State",
                 "away_logo": "https://media.api-sports.io/basketball/teams/1963.png",
-                "score_line": "42 - 48",
+                "score_line": "62 - 67",
                 "status_display": "19:00",
-                "status_code": "Q2"
-            }
-        ]
-    },
-    {
-        "post_id": "sp_ncaa_496093",
-        "article_id": "march_madness_2026",
-        "type": "Sports",
-        "category": "NCAA",
-        "theme": "Idaho vs Houston",
-        "pages": [
-            {
-                "title": "Live Now",
-                "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg",
-                "home_name": "Houston",
-                "home_logo": "https://media.api-sports.io/basketball/teams/1938.png",
-                "away_name": "Idaho",
-                "away_logo": "https://media.api-sports.io/basketball/teams/1942.png",
-                "score_line": "38 - 67",
-                "status_display": "19:10",
                 "status_code": "Q2"
             }
         ]

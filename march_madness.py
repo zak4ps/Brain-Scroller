@@ -44,6 +44,15 @@ def format_ncaa_as_post(game_data):
         score_disp = f"{a_score} - {h_score}"
         time_disp, title = game_data.get('time', 'Live'), "Live Now"
     else:
+        # For upcoming games, format the time from the 'date' field
+        try:
+            dt = datetime.fromisoformat(game_data['date'].replace('Z', '+00:00'))
+            # Note: API provides local time based on 'timezone' param in fetch
+            time_disp = dt.strftime('%I:%M %p')
+            title = f"Upcoming - {dt.strftime('%b %d')}"
+        except:
+            time_disp = game_data.get('time', 'TBD')
+            title = "Upcoming"
         score_disp = "vs"
 
     return {
@@ -54,7 +63,7 @@ def format_ncaa_as_post(game_data):
         "theme": f"{away['name']} vs {home['name']}",
         "pages": [{
             "title": title,
-            "league_logo": "https://upload.wikimedia.org/wikipedia/en/2/28/March_Madness_logo.svg", # Clean fallback logo
+            "league_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/March_Madness_logo.svg/1280px-March_Madness_logo.svg.png", # Clean fallback logo
             "home_name": home['name'], 
             "home_logo": home.get('logo'),
             "away_name": away['name'], 
