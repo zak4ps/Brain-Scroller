@@ -1,20 +1,20 @@
 ﻿[
     {
-        "post_id": "fav_nhl_2025021098",
+        "post_id": "fav_nhl_2025021117",
         "article_id": "ducks_hockey",
         "type": "Sports",
         "category": "NHL",
-        "theme": "Mammoth vs Ducks",
+        "theme": "Ducks vs Sabres",
         "pages": [
             {
-                "title": "Upcoming - Mar 20",
+                "title": "Upcoming - Mar 22",
                 "league_logo": "https://assets.nhle.com/logos/nhl/svg/NHL_light.svg",
-                "home_name": "Mammoth",
-                "home_logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
-                "away_name": "Ducks",
-                "away_logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "home_name": "Ducks",
+                "home_logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+                "away_name": "Sabres",
+                "away_logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
                 "score_line": "vs",
-                "status_display": "07:00 PM",
+                "status_display": "05:00 PM",
                 "status_code": "SCH"
             }
         ]
